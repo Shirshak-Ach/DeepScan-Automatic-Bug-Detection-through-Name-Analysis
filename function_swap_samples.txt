@@ -1,0 +1,2649 @@
+printf,"%sINVALID",sep,int,,,0
+printf,sep,"%sINVALID",int,,,1
+printf,"%sNEW",sep,int,,,0
+printf,sep,"%sNEW",int,,,1
+printf,"%sRELATED",sep,int,,,0
+printf,sep,"%sRELATED",int,,,1
+printf,"%sESTABLISHED",sep,int,,,0
+printf,sep,"%sESTABLISHED",int,,,1
+printf,"%sUNTRACKED",sep,int,,,0
+printf,sep,"%sUNTRACKED",int,,,1
+printf,"%sSNAT",sep,int,,,0
+printf,sep,"%sSNAT",int,,,1
+printf,"%sDNAT",sep,int,,,0
+printf,sep,"%sDNAT",int,,,1
+printf,"%sEXPECTED",sep,int,,,0
+printf,sep,"%sEXPECTED",int,,,1
+printf,"%sSEEN_REPLY",sep,int,,,0
+printf,sep,"%sSEEN_REPLY",int,,,1
+printf,"%sASSURED",sep,int,,,0
+printf,sep,"%sASSURED",int,,,1
+printf,"%sCONFIRMED",sep,int,,,0
+printf,sep,"%sCONFIRMED",int,,,1
+printf,"%sNONE",sep,int,,,0
+printf,sep,"%sNONE",int,,,1
+printf," %sctstate",optpfx,int,,,0
+printf,optpfx," %sctstate",int,,,1
+printf," %sctproto",optpfx,int,,,0
+printf,optpfx," %sctproto",int,,,1
+printf," %sctorigsrc",optpfx,int,,,0
+printf,optpfx," %sctorigsrc",int,,,1
+printf," %sctorigdst",optpfx,int,,,0
+printf,optpfx," %sctorigdst",int,,,1
+printf," %sctreplsrc",optpfx,int,,,0
+printf,optpfx," %sctreplsrc",int,,,1
+printf," %sctrepldst",optpfx,int,,,0
+printf,optpfx," %sctrepldst",int,,,1
+printf," %sctstatus",optpfx,int,,,0
+printf,optpfx," %sctstatus",int,,,1
+printf," %sctexpire ",optpfx,int,,,0
+printf,optpfx," %sctexpire ",int,,,1
+printf," %sctdir REPLY",optpfx,int,,,0
+printf,optpfx," %sctdir REPLY",int,,,1
+printf," %sctdir ORIGINAL",optpfx,int,,,0
+printf,optpfx," %sctdir ORIGINAL",int,,,1
+printf," %sctstate",prefix,int,,,0
+printf,prefix," %sctstate",int,,,1
+printf," %sctorigsrc",prefix,int,,,0
+printf,prefix," %sctorigsrc",int,,,1
+printf," %sctorigdst",prefix,int,,,0
+printf,prefix," %sctorigdst",int,,,1
+printf," %sctreplsrc",prefix,int,,,0
+printf,prefix," %sctreplsrc",int,,,1
+printf," %sctrepldst",prefix,int,,,0
+printf,prefix," %sctrepldst",int,,,1
+printf," %sctstatus",prefix,int,,,0
+printf,prefix," %sctstatus",int,,,1
+printf," %sctexpire ",prefix,int,,,0
+printf,prefix," %sctexpire ",int,,,1
+printf," %sctdir REPLY",prefix,int,,,0
+printf,prefix," %sctdir REPLY",int,,,1
+printf," %sctdir ORIGINAL",prefix,int,,,0
+printf,prefix," %sctdir ORIGINAL",int,,,1
+strcmp,t,tbl,int,_Str1,_Str2,0
+strcmp,tbl,t,int,_Str1,_Str2,1
+printf," %s ",pfx,int,,,0
+printf,pfx," %s ",int,,,1
+strcasecmp,dccp_pkt_types,ptr,int,,,0
+strcasecmp,ptr,dccp_pkt_types,int,,,1
+printf,"%s",service,int,,,0
+printf,service,"%s",int,,,1
+printf," %s",name,int,,,0
+printf,name," %s",int,,,1
+printf,":%s",inv,int,,,0
+printf,inv,":%s",int,,,1
+printf,"s:%s",inv,int,,,0
+printf,inv,"s:%s",int,,,1
+printf,"%s",dccp_pkt_types,int,,,0
+printf,dccp_pkt_types,"%s",int,,,1
+printf,"%s",name,int,,,0
+printf,name,"%s",int,,,1
+printf," %ssrc-group ",pfx,int,,,0
+printf,pfx," %ssrc-group ",int,,,1
+printf," %sdst-group ",pfx,int,,,0
+printf,pfx," %sdst-group ",int,,,1
+strcmp,tok,"dstip",int,_Str1,_Str2,0
+strcmp,"dstip",tok,int,_Str1,_Str2,1
+strcmp,tok,"srcip",int,_Str1,_Str2,0
+strcmp,"srcip",tok,int,_Str1,_Str2,1
+strcmp,tok,"srcport",int,_Str1,_Str2,0
+strcmp,"srcport",tok,int,_Str1,_Str2,1
+strcmp,tok,"dstport",int,_Str1,_Str2,0
+strcmp,"dstport",tok,int,_Str1,_Str2,1
+printf," %sipvs",prefix,int,,,0
+printf,prefix," %sipvs",int,,,1
+printf," %svaddr",prefix,int,,,0
+printf,prefix," %svaddr",int,,,1
+printf," %svdir REPLY",prefix,int,,,0
+printf,prefix," %svdir REPLY",int,,,1
+printf," %svdir ORIGINAL",prefix,int,,,0
+printf,prefix," %svdir ORIGINAL",int,,,1
+printf," %svmethod",prefix,int,,,0
+printf,prefix," %svmethod",int,,,1
+strcat,led,cb,char *,_Destination,_Source,0
+strcat,cb,led,char *,_Destination,_Source,1
+printf,"%s",service,int,,,0
+printf,service,"%s",int,,,1
+printf," %s",label,int,,,0
+printf,label," %s",int,,,1
+printf," %s",label,int,,,0
+printf,label," %s",int,,,1
+printf," %s",label,int,,,0
+printf,label," %s",int,,,1
+strcasecmp,pkttype,supported_types,int,,,0
+strcasecmp,supported_types,pkttype,int,,,1
+printf,"%s",supported_types,int,,,0
+printf,supported_types,"%s",int,,,1
+strcmp,s,"ipsec",int,_Str1,_Str2,0
+strcmp,"ipsec",s,int,_Str1,_Str2,1
+printf," %smode ",prefix,int,,,0
+printf,prefix," %smode ",int,,,1
+printf," %sproto ",prefix,int,,,0
+printf,prefix," %sproto ",int,,,1
+printf," %sdir in",prefix,int,,,0
+printf,prefix," %sdir in",int,,,1
+printf," %sdir out",prefix,int,,,0
+printf,prefix," %sdir out",int,,,1
+printf," %spol none",prefix,int,,,0
+printf,prefix," %spol none",int,,,1
+printf," %spol ipsec",prefix,int,,,0
+printf,prefix," %spol ipsec",int,,,1
+printf," %sstrict",prefix,int,,,0
+printf,prefix," %sstrict",int,,,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+strcasecmp,p,"s",int,,,0
+strcasecmp,"s",p,int,,,1
+strcasecmp,p,"sec",int,,,0
+strcasecmp,"sec",p,int,,,1
+strcasecmp,p,"secs",int,,,0
+strcasecmp,"secs",p,int,,,1
+strcasecmp,p,"ms",int,,,0
+strcasecmp,"ms",p,int,,,1
+strcasecmp,p,"msec",int,,,0
+strcasecmp,"msec",p,int,,,1
+strcasecmp,p,"msecs",int,,,0
+strcasecmp,"msecs",p,int,,,1
+strcasecmp,p,"us",int,,,0
+strcasecmp,"us",p,int,,,1
+strcasecmp,p,"usec",int,,,0
+strcasecmp,"usec",p,int,,,1
+strcasecmp,p,"usecs",int,,,0
+strcasecmp,"usecs",p,int,,,1
+printf," %sinterval",prefix,int,,,0
+printf,prefix," %sinterval",int,,,1
+printf," %sewmalog",prefix,int,,,0
+printf,prefix," %sewmalog",int,,,1
+strcasecmp,buffer,"ALL",int,,,0
+strcasecmp,"ALL",buffer,int,,,1
+strcasecmp,buffer,"NONE",int,,,0
+strcasecmp,"NONE",buffer,int,,,1
+strcasecmp,sctp_chunk_names,ptr,int,,,0
+strcasecmp,ptr,sctp_chunk_names,int,,,1
+strcasecmp,match_type,"ANY",int,,,0
+strcasecmp,"ANY",match_type,int,,,1
+strcasecmp,match_type,"ALL",int,,,0
+strcasecmp,"ALL",match_type,int,,,1
+strcasecmp,match_type,"ONLY",int,,,0
+strcasecmp,"ONLY",match_type,int,,,1
+printf,"%s",service,int,,,0
+printf,service,"%s",int,,,1
+printf," %s",name,int,,,0
+printf,name," %s",int,,,1
+printf,":%s",inv,int,,,0
+printf,inv,":%s",int,,,1
+printf,"s:%s",inv,int,,,0
+printf,inv,"s:%s",int,,,1
+printf,"%sINVALID",sep,int,,,0
+printf,sep,"%sINVALID",int,,,1
+printf,"%sNEW",sep,int,,,0
+printf,sep,"%sNEW",int,,,1
+printf,"%sRELATED",sep,int,,,0
+printf,sep,"%sRELATED",int,,,1
+printf,"%sESTABLISHED",sep,int,,,0
+printf,sep,"%sESTABLISHED",int,,,1
+printf,"%sUNTRACKED",sep,int,,,0
+printf,sep,"%sUNTRACKED",int,,,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+strcasecmp,tcp_flag_names,ptr,int,,,0
+strcasecmp,ptr,tcp_flag_names,int,,,1
+printf,"%s",service,int,,,0
+printf,service,"%s",int,,,1
+printf," %s",name,int,,,0
+printf,name," %s",int,,,1
+printf,":%s",inv,int,,,0
+printf,inv,":%s",int,,,1
+printf,"s:%s",inv,int,,,0
+printf,inv,"s:%s",int,,,1
+printf,"%s",tcp_flag_names,int,,,0
+printf,tcp_flag_names,"%s",int,,,1
+strcmp,tcp_optionmap,arg,int,_Str1,_Str2,0
+strcmp,arg,tcp_optionmap,int,_Str1,_Str2,1
+printf,"%s",name,int,,,0
+printf,name,"%s",int,,,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+printf,",%s",week_days,int,,,0
+printf,week_days,",%s",int,,,1
+printf,"%s",week_days,int,,,0
+printf,week_days,"%s",int,,,1
+printf,"%s",service,int,,,0
+printf,service,"%s",int,,,1
+printf," %s",name,int,,,0
+printf,name," %s",int,,,1
+printf,":%s",inv,int,,,0
+printf,inv,":%s",int,,,1
+printf,"s:%s",inv,int,,,0
+printf,inv,"s:%s",int,,,1
+strcmp,buffer,"COMMIT\n",int,_Str1,_Str2,0
+strcmp,"COMMIT\n",buffer,int,_Str1,_Str2,1
+strcmp,tablename,table,int,_Str1,_Str2,0
+strcmp,table,tablename,int,_Str1,_Str2,1
+strcmp,policy,"-",int,_Str1,_Str2,0
+strcmp,"-",policy,int,_Str1,_Str2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+fopen,"/proc/net/ip6_tables_names","re",FILE *,_FileName,_Mode,0
+fopen,"re","/proc/net/ip6_tables_names",FILE *,_FileName,_Mode,1
+printf,"*%s\n",tablename,int,,,0
+printf,tablename,"*%s\n",int,,,1
+printf,":%s ",chain,int,,,0
+printf,chain,":%s ",int,,,1
+printf,"Chain %s",chain,int,,,0
+printf,chain,"Chain %s",int,,,1
+printf," (policy %s",pol,int,,,0
+printf,pol," (policy %s",int,,,1
+printf,(,targname,int,,,0
+printf,targname,(,int,,,1
+printf,(,pname,int,,,0
+printf,pname,(,int,,,1
+printf,"-A %s",chain,int,,,0
+printf,chain,"-A %s",int,,,1
+printf," -j %s",target_name,int,,,0
+printf,target_name," -j %s",int,,,1
+printf,"-N %s\n",this,int,,,0
+printf,this,"-N %s\n",int,,,1
+strcmp,chain,"PREROUTING",int,_Str1,_Str2,0
+strcmp,"PREROUTING",chain,int,_Str1,_Str2,1
+strcmp,chain,"INPUT",int,_Str1,_Str2,0
+strcmp,"INPUT",chain,int,_Str1,_Str2,1
+strcmp,chain,"POSTROUTING",int,_Str1,_Str2,0
+strcmp,"POSTROUTING",chain,int,_Str1,_Str2,1
+strcmp,chain,"OUTPUT",int,_Str1,_Str2,0
+strcmp,"OUTPUT",chain,int,_Str1,_Str2,1
+strcmp,buffer,"COMMIT\n",int,_Str1,_Str2,0
+strcmp,"COMMIT\n",buffer,int,_Str1,_Str2,1
+strcmp,tablename,table,int,_Str1,_Str2,0
+strcmp,table,tablename,int,_Str1,_Str2,1
+strcmp,policy,"-",int,_Str1,_Str2,0
+strcmp,"-",policy,int,_Str1,_Str2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+fopen,"/proc/net/ip_tables_names","re",FILE *,_FileName,_Mode,0
+fopen,"re","/proc/net/ip_tables_names",FILE *,_FileName,_Mode,1
+printf,"*%s\n",tablename,int,,,0
+printf,tablename,"*%s\n",int,,,1
+printf,":%s ",chain,int,,,0
+printf,chain,":%s ",int,,,1
+strcmp,policy,"-",int,_Str1,_Str2,0
+strcmp,"-",policy,int,_Str1,_Str2,1
+xmlAttrS,"policy",policy,void,name,value,0
+xmlAttrS,policy,"policy",void,name,value,1
+strcmp,chains,chain,int,_Str1,_Str2,0
+strcmp,chain,chains,int,_Str1,_Str2,1
+strcmp,chains,chain,int,_Str1,_Str2,0
+strcmp,chain,chains,int,_Str1,_Str2,1
+strcmp,(,"-j",int,_Str1,_Str2,0
+strcmp,"-j",(,int,_Str1,_Str2,1
+strcmp,(,"--jump",int,_Str1,_Str2,0
+strcmp,"--jump",(,int,_Str1,_Str2,1
+strcmp,(,"-g",int,_Str1,_Str2,0
+strcmp,"-g",(,int,_Str1,_Str2,1
+strcmp,(,"--goto",int,_Str1,_Str2,0
+strcmp,"--goto",(,int,_Str1,_Str2,1
+strcmp,(,"ACCEPT",int,_Str1,_Str2,0
+strcmp,"ACCEPT",(,int,_Str1,_Str2,1
+strcmp,(,"DROP",int,_Str1,_Str2,0
+strcmp,"DROP",(,int,_Str1,_Str2,1
+strcmp,(,"QUEUE",int,_Str1,_Str2,0
+strcmp,"QUEUE",(,int,_Str1,_Str2,1
+strcmp,(,"RETURN",int,_Str1,_Str2,0
+strcmp,"RETURN",(,int,_Str1,_Str2,1
+strcmp,argv,"-m",int,_Str1,_Str2,0
+strcmp,"-m",argv,int,_Str1,_Str2,1
+xmlAttrS,"type",(,void,name,value,0
+xmlAttrS,(,"type",void,name,value,1
+strcmp,argv,"!",int,_Str1,_Str2,0
+strcmp,"!",argv,int,_Str1,_Str2,1
+strcmp,argv,"-g",int,_Str1,_Str2,0
+strcmp,"-g",argv,int,_Str1,_Str2,1
+strcmp,argv,"--goto",int,_Str1,_Str2,0
+strcmp,"--goto",argv,int,_Str1,_Str2,1
+xmlAttrS,"type",(,void,name,value,0
+xmlAttrS,(,"type",void,name,value,1
+xmlAttrS,"type",(,void,name,value,0
+xmlAttrS,(,"type",void,name,value,1
+xmlAttrS,"type",(,void,name,value,0
+xmlAttrS,(,"type",void,name,value,1
+xmlAttrS,"type",(,void,name,value,0
+xmlAttrS,(,"type",void,name,value,1
+strcmp,argv,"-m",int,_Str1,_Str2,0
+strcmp,"-m",argv,int,_Str1,_Str2,1
+strcmp,argv,"--module",int,_Str1,_Str2,0
+strcmp,"--module",argv,int,_Str1,_Str2,1
+xmlAttrS,"type",(,void,name,value,0
+xmlAttrS,(,"type",void,name,value,1
+strcmp,argv,"-m",int,_Str1,_Str2,0
+strcmp,"-m",argv,int,_Str1,_Str2,1
+strcmp,argv,"--module",int,_Str1,_Str2,0
+strcmp,"--module",argv,int,_Str1,_Str2,1
+xmlAttrS,"type",(,void,name,value,0
+xmlAttrS,(,"type",void,name,value,1
+strcmp,(,"-j",int,_Str1,_Str2,0
+strcmp,"-j",(,int,_Str1,_Str2,1
+strcmp,(,"--jump",int,_Str1,_Str2,0
+strcmp,"--jump",(,int,_Str1,_Str2,1
+strcmp,(,"-g",int,_Str1,_Str2,0
+strcmp,"-g",(,int,_Str1,_Str2,1
+strcmp,(,"--goto",int,_Str1,_Str2,0
+strcmp,"--goto",(,int,_Str1,_Str2,1
+strcmp,oldargv,newargv,int,_Str1,_Str2,0
+strcmp,newargv,oldargv,int,_Str1,_Str2,1
+xmlAttrS,"packet-count",pcnt,void,name,value,0
+xmlAttrS,pcnt,"packet-count",void,name,value,1
+xmlAttrS,"byte-count",bcnt,void,name,value,0
+xmlAttrS,bcnt,"byte-count",void,name,value,1
+strcmp,newargv,"-A",int,_Str1,_Str2,0
+strcmp,"-A",newargv,int,_Str1,_Str2,1
+printf,"Chain %s",chain,int,,,0
+printf,chain,"Chain %s",int,,,1
+printf," (policy %s",pol,int,,,0
+printf,pol," (policy %s",int,,,1
+printf,(,targname,int,,,0
+printf,targname,(,int,,,1
+printf,(,pname,int,,,0
+printf,pname,(,int,,,1
+printf,"-A %s",chain,int,,,0
+printf,chain,"-A %s",int,,,1
+printf," -j %s",target_name,int,,,0
+printf,target_name," -j %s",int,,,1
+printf,"-N %s\n",this,int,,,0
+printf,this,"-N %s\n",int,,,1
+strcmp,chain,"PREROUTING",int,_Str1,_Str2,0
+strcmp,"PREROUTING",chain,int,_Str1,_Str2,1
+strcmp,chain,"INPUT",int,_Str1,_Str2,0
+strcmp,"INPUT",chain,int,_Str1,_Str2,1
+strcmp,chain,"POSTROUTING",int,_Str1,_Str2,0
+strcmp,"POSTROUTING",chain,int,_Str1,_Str2,1
+strcmp,chain,"OUTPUT",int,_Str1,_Str2,0
+strcmp,"OUTPUT",chain,int,_Str1,_Str2,1
+strcmp,name,entry,int,_Str1,_Str2,0
+strcmp,entry,name,int,_Str1,_Str2,1
+fopen,file,"re",FILE *,_FileName,_Mode,0
+fopen,"re",file,FILE *,_FileName,_Mode,1
+strcmp,c,h,int,_Str1,_Str2,0
+strcmp,h,c,int,_Str1,_Str2,1
+strcmp,c,ctail,int,_Str1,_Str2,0
+strcmp,ctail,c,int,_Str1,_Str2,1
+strcpy,head,c,char *,_Destination,_Source,0
+strcpy,c,head,char *,_Destination,_Source,1
+strcmp,a,b,int,_Str1,_Str2,0
+strcmp,b,a,int,_Str1,_Str2,1
+strcmp,ta,tb,int,_Str1,_Str2,0
+strcmp,tb,ta,int,_Str1,_Str2,1
+strcpy,repl,handle,char *,_Destination,_Source,0
+strcpy,handle,repl,char *,_Destination,_Source,1
+strcpy,newcounters,handle,char *,_Destination,_Source,0
+strcpy,handle,newcounters,char *,_Destination,_Source,1
+strcmp,c,h,int,_Str1,_Str2,0
+strcmp,h,c,int,_Str1,_Str2,1
+strcmp,c,ctail,int,_Str1,_Str2,0
+strcmp,ctail,c,int,_Str1,_Str2,1
+strcpy,head,c,char *,_Destination,_Source,0
+strcpy,c,head,char *,_Destination,_Source,1
+strcmp,a,b,int,_Str1,_Str2,0
+strcmp,b,a,int,_Str1,_Str2,1
+strcmp,ta,tb,int,_Str1,_Str2,0
+strcmp,tb,ta,int,_Str1,_Str2,1
+strcpy,repl,handle,char *,_Destination,_Source,0
+strcpy,handle,repl,char *,_Destination,_Source,1
+strcpy,newcounters,handle,char *,_Destination,_Source,0
+strcpy,handle,newcounters,char *,_Destination,_Source,1
+strcmp,c,h,int,,,0
+strcmp,h,c,int,,,1
+strcmp,c,ctail,int,,,0
+strcmp,ctail,c,int,,,1
+strcpy,head,c,char *,,,0
+strcpy,c,head,char *,,,1
+calloc,count,size,void *,_Count,_Size,0
+calloc,size,count,void *,_Count,_Size,1
+getservbyname,name,proto,int,,,0
+getservbyname,proto,name,int,,,1
+xtables_service_to_port,port,proto,int,name,proto,0
+xtables_service_to_port,proto,port,int,name,proto,1
+strcmp,name,"icmpv6",int,_Str1,_Str2,0
+strcmp,"icmpv6",name,int,_Str1,_Str2,1
+strcmp,name,"ipv6-icmp",int,_Str1,_Str2,0
+strcmp,"ipv6-icmp",name,int,_Str1,_Str2,1
+strcmp,name,"icmp6",int,_Str1,_Str2,0
+strcmp,"icmp6",name,int,_Str1,_Str2,1
+strspn,value,no_quote_chars,unsigned long long,_Str,_Control,0
+strspn,no_quote_chars,value,unsigned long long,_Str,_Control,1
+strpbrk,value,escape_chars,char *,_Str,_Control,0
+strpbrk,escape_chars,value,char *,_Str,_Control,1
+strpbrk,value,escape_chars,char *,_Str,_Control,0
+strpbrk,escape_chars,value,char *,_Str,_Control,1
+strcmp,s,"all",int,_Str1,_Str2,0
+strcmp,"all",s,int,_Str1,_Str2,1
+strcmp,name,entry,int,_Str1,_Str2,0
+strcmp,entry,name,int,_Str1,_Str2,1
+fopen,file,"re",FILE *,_FileName,_Mode,0
+fopen,"re",file,FILE *,_FileName,_Mode,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+fopen,path,"r",FILE *,_FileName,_Mode,0
+fopen,"r",path,FILE *,_FileName,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+do_err,"alloc","",void,,,0
+do_err,"","alloc",void,,,1
+fopen,fn,"w",FILE *,_FileName,_Mode,0
+fopen,"w",fn,FILE *,_FileName,_Mode,1
+do_err,"open",fn,void,,,0
+do_err,fn,"open",void,,,1
+do_err,"write",fn,void,,,0
+do_err,fn,"write",void,,,1
+do_err,"delete",fn,void,,,0
+do_err,fn,"delete",void,,,1
+box_muller,mean,spread,float,m,s,0
+box_muller,spread,mean,float,m,s,1
+strcmp,argv,"--varargs",int,_Str1,_Str2,0
+strcmp,"--varargs",argv,int,_Str1,_Str2,1
+fopen,argv,"w",FILE *,_FileName,_Mode,0
+fopen,"w",argv,FILE *,_FileName,_Mode,1
+fopen,argv,"r",FILE *,_FileName,_Mode,0
+fopen,"r",argv,FILE *,_FileName,_Mode,1
+writeblanks,lp,rp,int,start,end,0
+writeblanks,rp,lp,int,start,end,1
+writeblanks,breaks,p,int,start,end,0
+writeblanks,p,breaks,int,start,end,1
+writeblanks,bp,p,int,start,end,0
+writeblanks,p,bp,int,start,end,1
+writeblanks,breaks,p,int,start,end,0
+writeblanks,p,breaks,int,start,end,1
+,1,2,void,,,0
+,2,1,void,,,1
+fopen,"jconfig.h","w",FILE *,_FileName,_Mode,0
+fopen,"w","jconfig.h",FILE *,_FileName,_Mode,1
+printf,"JPEG process: %s\n",process,int,,,0
+printf,process,"JPEG process: %s\n",int,,,1
+regtail,ret,br,void,,,0
+regtail,br,ret,void,,,1
+regtail,ret,br,void,,,0
+regtail,br,ret,void,,,1
+regtail,ret,ender,void,,,0
+regtail,ender,ret,void,,,1
+regoptail,br,ender,void,,,0
+regoptail,ender,br,void,,,1
+regtail,chain,latest,void,,,0
+regtail,latest,chain,void,,,1
+regoptail,ret,regnode,void,,,0
+regoptail,regnode,ret,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,next,void,,,0
+regtail,next,ret,void,,,1
+regtail,regnode,ret,void,,,0
+regtail,ret,regnode,void,,,1
+regtail,next,regnode,void,,,0
+regtail,regnode,next,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,next,void,,,0
+regtail,next,ret,void,,,1
+regoptail,ret,next,void,,,0
+regoptail,next,ret,void,,,1
+regtail,(,val,void,,,0
+regtail,val,(,void,,,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+regtail,ret,br,void,,,0
+regtail,br,ret,void,,,1
+regtail,ret,br,void,,,0
+regtail,br,ret,void,,,1
+regtail,ret,ender,void,,,0
+regtail,ender,ret,void,,,1
+regoptail,br,ender,void,,,0
+regoptail,ender,br,void,,,1
+regtail,chain,latest,void,,,0
+regtail,latest,chain,void,,,1
+regoptail,ret,regnode,void,,,0
+regoptail,regnode,ret,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,next,void,,,0
+regtail,next,ret,void,,,1
+regtail,regnode,ret,void,,,0
+regtail,ret,regnode,void,,,1
+regtail,next,regnode,void,,,0
+regtail,regnode,next,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,next,void,,,0
+regtail,next,ret,void,,,1
+regoptail,ret,next,void,,,0
+regoptail,next,ret,void,,,1
+regtail,(,val,void,,,0
+regtail,val,(,void,,,1
+regtail,ret,br,void,,,0
+regtail,br,ret,void,,,1
+regtail,ret,br,void,,,0
+regtail,br,ret,void,,,1
+regtail,ret,ender,void,,,0
+regtail,ender,ret,void,,,1
+regtail,chain,latest,void,,,0
+regtail,latest,chain,void,,,1
+regoptail,ret,regnode,void,,,0
+regoptail,regnode,ret,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,next,void,,,0
+regtail,next,ret,void,,,1
+regtail,regnode,ret,void,,,0
+regtail,ret,regnode,void,,,1
+regtail,next,regnode,void,,,0
+regtail,regnode,next,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,regnode,void,,,0
+regtail,regnode,ret,void,,,1
+regtail,ret,next,void,,,0
+regtail,next,ret,void,,,1
+regoptail,ret,next,void,,,0
+regoptail,next,ret,void,,,1
+regtail,(,val,void,,,0
+regtail,val,(,void,,,1
+strcmp,argv,"-k",int,_Str1,_Str2,0
+strcmp,"-k",argv,int,_Str1,_Str2,1
+dup2,p,1,int,,,0
+dup2,1,p,int,,,1
+dup2,p,2,int,,,0
+dup2,2,p,int,,,1
+dup2,fd2,fd,int,,,0
+dup2,fd,fd2,int,,,1
+_null_open,,0,int,f,fd,0
+_null_open,0,,int,f,fd,1
+_null_open,,1,int,f,fd,0
+_null_open,1,,int,f,fd,1
+_null_open,,2,int,f,fd,0
+_null_open,2,,int,f,fd,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+lock_file,fd,1,int,fd,enable,0
+lock_file,1,fd,int,fd,enable,1
+strcspn,txt,"\r\n",unsigned long long,_Str,_Control,0
+strcspn,"\r\n",txt,unsigned long long,_Str,_Control,1
+lock_file,fd,0,int,fd,enable,0
+lock_file,0,fd,int,fd,enable,1
+lock_file,fd,1,int,fd,enable,0
+lock_file,1,fd,int,fd,enable,1
+lock_file,fd,0,int,fd,enable,0
+lock_file,0,fd,int,fd,enable,1
+daemon_nonblock,_signal_pipe,1,int,,,0
+daemon_nonblock,1,_signal_pipe,int,,,1
+daemon_nonblock,_signal_pipe,1,int,,,0
+daemon_nonblock,1,_signal_pipe,int,,,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+strstr,mount_info,target,char *,_Str,_SubStr,0
+strstr,target,mount_info,char *,_Str,_SubStr,1
+upper_strcmp,dirname,MS_System_folder,int,,,0
+upper_strcmp,MS_System_folder,dirname,int,,,1
+upper_strcmp,dirname,Linux_System_folder,int,,,0
+upper_strcmp,Linux_System_folder,dirname,int,,,1
+usb_dbg,"No content in %s.\n",list_file,int,,,0
+usb_dbg,list_file,"No content in %s.\n",int,,,1
+strstr,list_info,"sh_num=",char *,_Str,_SubStr,0
+strstr,"sh_num=",list_info,char *,_Str,_SubStr,1
+usb_dbg,"No sh_num in %s is wrong.\n",list_file,int,,,0
+usb_dbg,list_file,"No sh_num in %s is wrong.\n",int,,,1
+usb_dbg,"The content in %s is wrong.\n",list_file,int,,,0
+usb_dbg,list_file,"The content in %s is wrong.\n",int,,,1
+strstr,list_info,target,char *,_Str,_SubStr,0
+strstr,target,list_info,char *,_Str,_SubStr,1
+fopen,list_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",list_file,FILE *,_FileName,_Mode,1
+usb_dbg,"Can't create folder_list, \"%s\".\n",list_file,int,,,0
+usb_dbg,list_file,"Can't create folder_list, \"%s\".\n",int,,,1
+strcmp,account,nvram_safe_get,int,_Str1,_Str2,0
+strcmp,nvram_safe_get,account,int,_Str1,_Str2,1
+fopen,var_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",var_file,FILE *,_FileName,_Mode,1
+usb_dbg,"Can't create the var file, \"%s\".\n",var_file,int,,,0
+usb_dbg,var_file,"Can't create the var file, \"%s\".\n",int,,,1
+initial_var_file,,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,,int,account,mount_path,1
+initial_var_file,account_list,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,account_list,int,account,mount_path,1
+initial_var_file,,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,,int,account,mount_path,1
+usb_dbg,"Fail to check the file: %s.\n",var_file,int,,,0
+usb_dbg,var_file,"Fail to check the file: %s.\n",int,,,1
+initial_var_file,,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,,int,account,mount_path,1
+initial_var_file,account_list,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,account_list,int,account,mount_path,1
+usb_dbg,"Fail to check the file: %s.\n",var_file,int,,,0
+usb_dbg,var_file,"Fail to check the file: %s.\n",int,,,1
+initial_var_file,account_list,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,account_list,int,account,mount_path,1
+usb_dbg,"Fail to check the file: %s.\n",var_file,int,,,0
+usb_dbg,var_file,"Fail to check the file: %s.\n",int,,,1
+initial_var_file,account,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,account,int,account,mount_path,1
+strcmp,account,nvram_safe_get,int,_Str1,_Str2,0
+strcmp,nvram_safe_get,account,int,_Str1,_Str2,1
+fopen,var_file,"a+",FILE *,_FileName,_Mode,0
+fopen,"a+",var_file,FILE *,_FileName,_Mode,1
+usb_dbg,"Can't write \"%s\".\n",var_file,int,,,0
+usb_dbg,var_file,"Can't write \"%s\".\n",int,,,1
+usb_dbg,"Fail to check the file: %s.\n",var_file,int,,,0
+usb_dbg,var_file,"Fail to check the file: %s.\n",int,,,1
+initial_var_file,account,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,account,int,account,mount_path,1
+usb_dbg,"get_permission: \"%s\" isn't existed or there's no content.\n",var_file,int,,,0
+usb_dbg,var_file,"get_permission: \"%s\" isn't existed or there's no content.\n",int,,,1
+upper_strstr,var_info,target,int,,,0
+upper_strstr,target,var_info,int,,,1
+usb_dbg,"Fail to check the file: %s.\n",var_file,int,,,0
+usb_dbg,var_file,"Fail to check the file: %s.\n",int,,,1
+initial_var_file,account,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,account,int,account,mount_path,1
+initial_var_file,account,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,account,int,account,mount_path,1
+usb_dbg,"set_permission: \"%s\" isn't existed or there's no content.\n",var_file,int,,,0
+usb_dbg,var_file,"set_permission: \"%s\" isn't existed or there's no content.\n",int,,,1
+upper_strstr,var_info,target,int,,,0
+upper_strstr,target,var_info,int,,,1
+fopen,var_file,"a+",FILE *,_FileName,_Mode,0
+fopen,"a+",var_file,FILE *,_FileName,_Mode,1
+usb_dbg,"1. Can't rewrite the file, \"%s\".\n",var_file,int,,,0
+usb_dbg,var_file,"1. Can't rewrite the file, \"%s\".\n",int,,,1
+fopen,var_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",var_file,FILE *,_FileName,_Mode,1
+usb_dbg,"2. Can't rewrite the file, \"%s\".\n",var_file,int,,,0
+usb_dbg,var_file,"2. Can't rewrite the file, \"%s\".\n",int,,,1
+nvram_set,"acc_num","1",int,,,0
+nvram_set,"1","acc_num",int,,,1
+strcmp,account,char_user,int,_Str1,_Str2,0
+strcmp,char_user,account,int,_Str1,_Str2,1
+nvram_set,"acc_num","0",int,,,0
+nvram_set,"0","acc_num",int,,,1
+nvram_set,"acc_list","",int,,,0
+nvram_set,"","acc_list",int,,,1
+nvram_set,"st_samba_mode","1",int,,,0
+nvram_set,"1","st_samba_mode",int,,,1
+nvram_set,"st_ftp_mode","1",int,,,0
+nvram_set,"1","st_ftp_mode",int,,,1
+strcmp,account,new_account,int,_Str1,_Str2,0
+strcmp,new_account,account,int,_Str1,_Str2,1
+strcmp,account,char_user,int,_Str1,_Str2,0
+strcmp,char_user,account,int,_Str1,_Str2,1
+strcmp,new_account,account,int,_Str1,_Str2,0
+strcmp,account,new_account,int,_Str1,_Str2,1
+strcmp,account,account_list,int,_Str1,_Str2,0
+strcmp,account_list,account,int,_Str1,_Str2,1
+test_if_exist_share,mount_path,folder,int,mount_path,folder,0
+test_if_exist_share,folder,mount_path,int,mount_path,folder,1
+usb_dbg,"Fail to check the file: %s.\n",var_file,int,,,0
+usb_dbg,var_file,"Fail to check the file: %s.\n",int,,,1
+initial_var_file,,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,,int,account,mount_path,1
+initial_var_file,account_list,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,account_list,int,account,mount_path,1
+usb_dbg,"add_folder: \"%s\" isn't existed or there's no content.\n",var_file,int,,,0
+usb_dbg,var_file,"add_folder: \"%s\" isn't existed or there's no content.\n",int,,,1
+upper_strstr,var_info,target,int,,,0
+upper_strstr,target,var_info,int,,,1
+fopen,var_file,"a+",FILE *,_FileName,_Mode,0
+fopen,"a+",var_file,FILE *,_FileName,_Mode,1
+usb_dbg,"Can't write \"%s\".\n",var_file,int,,,0
+usb_dbg,var_file,"Can't write \"%s\".\n",int,,,1
+strcmp,account_list,nvram_safe_get,int,_Str1,_Str2,0
+strcmp,nvram_safe_get,account_list,int,_Str1,_Str2,1
+strcmp,account_list,account,int,_Str1,_Str2,0
+strcmp,account,account_list,int,_Str1,_Str2,1
+test_if_exist_share,mount_path,folder,int,mount_path,folder,0
+test_if_exist_share,folder,mount_path,int,mount_path,folder,1
+usb_dbg,"Fail to check the file: %s.\n",var_file,int,,,0
+usb_dbg,var_file,"Fail to check the file: %s.\n",int,,,1
+initial_var_file,,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,,int,account,mount_path,1
+initial_var_file,account_list,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,account_list,int,account,mount_path,1
+usb_dbg,"del_folder: \"%s\" isn't existed or there's no content.\n",var_file,int,,,0
+usb_dbg,var_file,"del_folder: \"%s\" isn't existed or there's no content.\n",int,,,1
+upper_strstr,var_info,target,int,,,0
+upper_strstr,target,var_info,int,,,1
+fopen,var_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",var_file,FILE *,_FileName,_Mode,1
+usb_dbg,"Can't write \"%s\".\n",var_file,int,,,0
+usb_dbg,var_file,"Can't write \"%s\".\n",int,,,1
+test_if_exist_share,mount_path,folder,int,mount_path,folder,0
+test_if_exist_share,folder,mount_path,int,mount_path,folder,1
+rename,full_path,new_full_path,int,_OldFileName,_NewFileName,0
+rename,new_full_path,full_path,int,_OldFileName,_NewFileName,1
+usb_dbg,"Fail to check the file: %s.\n",var_file,int,,,0
+usb_dbg,var_file,"Fail to check the file: %s.\n",int,,,1
+initial_var_file,,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,,int,account,mount_path,1
+initial_var_file,account_list,mount_path,int,account,mount_path,0
+initial_var_file,mount_path,account_list,int,account,mount_path,1
+usb_dbg,"mod_folder: \"%s\" isn't existed or there's no content.\n",var_file,int,,,0
+usb_dbg,var_file,"mod_folder: \"%s\" isn't existed or there's no content.\n",int,,,1
+upper_strstr,var_info,target,int,,,0
+upper_strstr,target,var_info,int,,,1
+fopen,var_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",var_file,FILE *,_FileName,_Mode,1
+usb_dbg,"Can't write \"%s\".\n",var_file,int,,,0
+usb_dbg,var_file,"Can't write \"%s\".\n",int,,,1
+strcmp,basedir,"/",int,_Str1,_Str2,0
+strcmp,"/",basedir,int,_Str1,_Str2,1
+printf,"(%s): The device name is not correct.\n",device_name,int,,,0
+printf,device_name,"(%s): The device name is not correct.\n",int,,,1
+strstr,target_string,get_usb_ehci_port,char *,_Str,_SubStr,0
+strstr,get_usb_ehci_port,target_string,char *,_Str,_SubStr,1
+strstr,target_string,get_usb_ehci_port,char *,_Str,_SubStr,0
+strstr,get_usb_ehci_port,target_string,char *,_Str,_SubStr,1
+strstr,target_string,get_usb_ohci_port,char *,_Str,_SubStr,0
+strstr,get_usb_ohci_port,target_string,char *,_Str,_SubStr,1
+strstr,target_string,get_usb_ohci_port,char *,_Str,_SubStr,0
+strstr,get_usb_ohci_port,target_string,char *,_Str,_SubStr,1
+strstr,target_string,get_usb_ehci_port,char *,_Str,_SubStr,0
+strstr,get_usb_ehci_port,target_string,char *,_Str,_SubStr,1
+strstr,target_string,get_usb_ohci_port,char *,_Str,_SubStr,0
+strstr,get_usb_ohci_port,target_string,char *,_Str,_SubStr,1
+fopen,target,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target,FILE *,_FileName,_Mode,1
+printf,"Fail to get disk's major and minor: %s.\n",device_name,int,,,0
+printf,device_name,"Fail to get disk's major and minor: %s.\n",int,,,1
+printf,"Fail to get disk's size_in_kilobytes: %s.\n",device_name,int,,,0
+printf,device_name,"Fail to get disk's size_in_kilobytes: %s.\n",int,,,1
+printf,"Fail to get usb port: %s.\n",device_name,int,,,0
+printf,device_name,"Fail to get usb port: %s.\n",int,,,1
+printf,"Fail to get disk's vendor: %s.\n",device_name,int,,,0
+printf,device_name,"Fail to get disk's vendor: %s.\n",int,,,1
+printf,"Fail to get disk's model: %s.\n",device_name,int,,,0
+printf,device_name,"Fail to get disk's model: %s.\n",int,,,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+strstr,mount_info,target,char *,_Str,_SubStr,0
+strstr,target,mount_info,char *,_Str,_SubStr,1
+printf,"test_disk2:: %s: Failed to execute strstr()!\n",device_name,int,,,0
+printf,device_name,"test_disk2:: %s: Failed to execute strstr()!\n",int,,,1
+printf,"%s: Failed to execute get_line_from_buffer()!\n",device_name,int,,,0
+printf,device_name,"%s: Failed to execute get_line_from_buffer()!\n",int,,,1
+printf,"%s: Failed to execute sscanf()!\n",device_name,int,,,0
+printf,device_name,"%s: Failed to execute sscanf()!\n",int,,,1
+strcmp,command,"set_file_integrity",int,_Str1,_Str2,0
+strcmp,"set_file_integrity",command,int,_Str1,_Str2,1
+strcmp,command,"check_file_integrity",int,_Str1,_Str2,0
+strcmp,"check_file_integrity",command,int,_Str1,_Str2,1
+strcmp,command,"get_account_list",int,_Str1,_Str2,0
+strcmp,"get_account_list",command,int,_Str1,_Str2,1
+strcmp,command,"get_folder_list",int,_Str1,_Str2,0
+strcmp,"get_folder_list",command,int,_Str1,_Str2,1
+strcmp,command,"get_all_folder",int,_Str1,_Str2,0
+strcmp,"get_all_folder",command,int,_Str1,_Str2,1
+strcmp,command,"get_var_file_name",int,_Str1,_Str2,0
+strcmp,"get_var_file_name",command,int,_Str1,_Str2,1
+usb_dbg,"done: %s.\n",file_name,int,,,0
+usb_dbg,file_name,"done: %s.\n",int,,,1
+strcmp,command,"initial_folder_list",int,_Str1,_Str2,0
+strcmp,"initial_folder_list",command,int,_Str1,_Str2,1
+usb_dbg,"Can't initial folder list in %s.\n",argv,int,,,0
+usb_dbg,argv,"Can't initial folder list in %s.\n",int,,,1
+strcmp,command,"initial_var_file",int,_Str1,_Str2,0
+strcmp,"initial_var_file",command,int,_Str1,_Str2,1
+strcmp,argv,"NULL",int,_Str1,_Str2,0
+strcmp,"NULL",argv,int,_Str1,_Str2,1
+initial_var_file,target_acc,argv,int,,,0
+initial_var_file,argv,target_acc,int,,,1
+usb_dbg,"Can't initial share's var file in %s.\n",argv,int,,,0
+usb_dbg,argv,"Can't initial share's var file in %s.\n",int,,,1
+strcmp,command,"initial_all_var_file",int,_Str1,_Str2,0
+strcmp,"initial_all_var_file",command,int,_Str1,_Str2,1
+usb_dbg,"Can't initial all var file in %s.\n",argv,int,,,0
+usb_dbg,argv,"Can't initial all var file in %s.\n",int,,,1
+strcmp,command,"test_of_var_files",int,_Str1,_Str2,0
+strcmp,"test_of_var_files",command,int,_Str1,_Str2,1
+usb_dbg,"Can't test_of_var_files in %s.\n",argv,int,,,0
+usb_dbg,argv,"Can't test_of_var_files in %s.\n",int,,,1
+strcmp,command,"create_if_no_var_files",int,_Str1,_Str2,0
+strcmp,"create_if_no_var_files",command,int,_Str1,_Str2,1
+usb_dbg,"Can't create var files in %s.\n",argv,int,,,0
+usb_dbg,argv,"Can't create var files in %s.\n",int,,,1
+strcmp,command,"modify_if_exist_new_folder",int,_Str1,_Str2,0
+strcmp,"modify_if_exist_new_folder",command,int,_Str1,_Str2,1
+strcmp,command,"get_permission",int,_Str1,_Str2,0
+strcmp,"get_permission",command,int,_Str1,_Str2,1
+strcmp,command,"set_permission",int,_Str1,_Str2,0
+strcmp,"set_permission",command,int,_Str1,_Str2,1
+strcmp,command,"add_account",int,_Str1,_Str2,0
+strcmp,"add_account",command,int,_Str1,_Str2,1
+strcmp,command,"del_account",int,_Str1,_Str2,0
+strcmp,"del_account",command,int,_Str1,_Str2,1
+usb_dbg,"Can't del account(%s).\n",argv,int,,,0
+usb_dbg,argv,"Can't del account(%s).\n",int,,,1
+strcmp,command,"mod_account",int,_Str1,_Str2,0
+strcmp,"mod_account",command,int,_Str1,_Str2,1
+strcmp,command,"test_if_exist_account",int,_Str1,_Str2,0
+strcmp,"test_if_exist_account",command,int,_Str1,_Str2,1
+usb_dbg,"Can't test if %s is existed.\n",argv,int,,,0
+usb_dbg,argv,"Can't test if %s is existed.\n",int,,,1
+strcmp,command,"add_folder",int,_Str1,_Str2,0
+strcmp,"add_folder",command,int,_Str1,_Str2,1
+strcmp,argv,"NULL",int,_Str1,_Str2,0
+strcmp,"NULL",argv,int,_Str1,_Str2,1
+strcmp,command,"del_folder",int,_Str1,_Str2,0
+strcmp,"del_folder",command,int,_Str1,_Str2,1
+strcmp,command,"mod_folder",int,_Str1,_Str2,0
+strcmp,"mod_folder",command,int,_Str1,_Str2,1
+strcmp,command,"test_if_exist_share",int,_Str1,_Str2,0
+strcmp,"test_if_exist_share",command,int,_Str1,_Str2,1
+strcmp,command,"how_many_layer",int,_Str1,_Str2,0
+strcmp,"how_many_layer",command,int,_Str1,_Str2,1
+usb_dbg,"Can't count the layer with %s.\n",argv,int,,,0
+usb_dbg,argv,"Can't count the layer with %s.\n",int,,,1
+strcmp,command,"test_size",int,_Str1,_Str2,0
+strcmp,"test_size",command,int,_Str1,_Str2,1
+strstr,target_string,usb_port,char *,_Str,_SubStr,0
+strstr,usb_port,target_string,char *,_Str,_SubStr,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,target_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",target_file,FILE *,_FileName,_Mode,1
+fopen,bmAttributes_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",bmAttributes_file,FILE *,_FileName,_Mode,1
+strcmp,target_usb_port,check_usb_port,int,_Str1,_Str2,0
+strcmp,check_usb_port,target_usb_port,int,_Str1,_Str2,1
+fopen,"/etc/smb.conf","r",FILE *,_FileName,_Mode,0
+fopen,"r","/etc/smb.conf",FILE *,_FileName,_Mode,1
+strcmp,list,str,int,_Str1,_Str2,0
+strcmp,str,list,int,_Str1,_Str2,1
+fopen,"/etc/smb.conf","r",FILE *,_FileName,_Mode,0
+fopen,"r","/etc/smb.conf",FILE *,_FileName,_Mode,1
+fopen,"/etc/smb.conf","w",FILE *,_FileName,_Mode,0
+fopen,"w","/etc/smb.conf",FILE *,_FileName,_Mode,1
+strcmp,nvram_safe_get,"1",int,_Str1,_Str2,0
+strcmp,"1",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"3",int,_Str1,_Str2,0
+strcmp,"3",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"2",int,_Str1,_Str2,0
+strcmp,"2",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"4",int,_Str1,_Str2,0
+strcmp,"4",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"",int,_Str1,_Str2,0
+strcmp,"",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"1",int,_Str1,_Str2,0
+strcmp,"1",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"1",int,_Str1,_Str2,0
+strcmp,"1",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"0",int,_Str1,_Str2,0
+strcmp,"0",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"",int,_Str1,_Str2,0
+strcmp,"",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"1",int,_Str1,_Str2,0
+strcmp,"1",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"2",int,_Str1,_Str2,0
+strcmp,"2",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"3",int,_Str1,_Str2,0
+strcmp,"3",nvram_safe_get,int,_Str1,_Str2,1
+strcmp,nvram_safe_get,"4",int,_Str1,_Str2,0
+strcmp,"4",nvram_safe_get,int,_Str1,_Str2,1
+fopen,"/tmp/lighttpd.conf","r",FILE *,_FileName,_Mode,0
+fopen,"r","/tmp/lighttpd.conf",FILE *,_FileName,_Mode,1
+fopen,"/tmp/lighttpd.conf","w",FILE *,_FileName,_Mode,0
+fopen,"w","/tmp/lighttpd.conf",FILE *,_FileName,_Mode,1
+nvram_match,"st_webdav_mode","2",int,,,0
+nvram_match,"2","st_webdav_mode",int,,,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+strcmp,buf,"Canon",int,_Str1,_Str2,0
+strcmp,"Canon",buf,int,_Str1,_Str2,1
+strcmp,buf,"Asahi Optical Co.,Ltd.",int,_Str1,_Str2,0
+strcmp,"Asahi Optical Co.,Ltd.",buf,int,_Str1,_Str2,1
+strcmp,buf,"PENTAX Corporation",int,_Str1,_Str2,0
+strcmp,"PENTAX Corporation",buf,int,_Str1,_Str2,1
+fopen,thumb_name,"wb",FILE *,_FileName,_Mode,0
+fopen,"wb",thumb_name,FILE *,_FileName,_Mode,1
+fopen,"write-exif.jpg","wb",FILE *,_FileName,_Mode,0
+fopen,"wb","write-exif.jpg",FILE *,_FileName,_Mode,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+strspn,(," ",unsigned long long,_Str,_Control,0
+strspn," ",(,unsigned long long,_Str,_Control,1
+pow,2,d,double,_X,_Y,0
+pow,d,2,double,_X,_Y,1
+fopen,path,"rb",FILE *,_FileName,_Mode,0
+fopen,"rb",path,FILE *,_FileName,_Mode,1
+strcmp,ExifTagTable,name,int,_Str1,_Str2,0
+strcmp,name,ExifTagTable,int,_Str1,_Str2,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+pow,2,x,double,_X,_Y,0
+pow,x,2,double,_X,_Y,1
+pow,2,x,double,_X,_Y,0
+pow,x,2,double,_X,_Y,1
+pow,2,x,double,_X,_Y,0
+pow,x,2,double,_X,_Y,1
+printf,"File %s\n",filename,int,,,0
+printf,filename,"File %s\n",int,,,1
+printf,"Old codeset:     \"%s\"\n",oldcodeset,int,,,0
+printf,oldcodeset,"Old codeset:     \"%s\"\n",int,,,1
+printf,"Msg catalog dir: %s (from environment variable LOCALEDIR\n",msgcatdir,int,,,0
+printf,msgcatdir,"Msg catalog dir: %s (from environment variable LOCALEDIR\n",int,,,1
+printf,"Msg catalog dir: %s\n",msgcatdir,int,,,0
+printf,msgcatdir,"Msg catalog dir: %s\n",int,,,1
+printf,"Locale not available: \"%s\"\n",newlocale,int,,,0
+printf,newlocale,"Locale not available: \"%s\"\n",int,,,1
+printf,"No test case found for locale: %s\n",newlocale,int,,,0
+printf,newlocale,"No test case found for locale: %s\n",int,,,1
+strcmp,"--list",argv,int,_Str1,_Str2,0
+strcmp,argv,"--list",int,_Str1,_Str2,1
+printf,"Default locale: %s\n",newloc,int,,,0
+printf,newloc,"Default locale: %s\n",int,,,1
+printf,"new locale: %s\n",actual_locale,int,,,0
+printf,actual_locale,"new locale: %s\n",int,,,1
+printf,"message basedir: %s\n",basedir,int,,,0
+printf,basedir,"message basedir: %s\n",int,,,1
+printf,"message domain: %s\n",domain,int,,,0
+printf,domain,"message domain: %s\n",int,,,1
+printf,"message codeset: %s\n",codeset,int,,,0
+printf,codeset,"message codeset: %s\n",int,,,1
+strcmp,expected,translation,int,_Str1,_Str2,0
+strcmp,translation,expected,int,_Str1,_Str2,1
+link,pag_file,dir_file,int,,,0
+link,dir_file,pag_file,int,,,1
+link,pag_file,dir_file,int,,,0
+link,dir_file,pag_file,int,,,1
+link,pag_file,dir_file,int,,,0
+link,dir_file,pag_file,int,,,1
+link,pag_file,dir_file,int,,,0
+link,dir_file,pag_file,int,,,1
+link,old_name,new_name,int,,,0
+link,new_name,old_name,int,,,1
+strcmp,argv,"--",int,,,0
+strcmp,"--",argv,int,,,1
+store,key_data,data_data,int,,,0
+store,data_data,key_data,int,,,1
+printf,"%s\n\n",gdbm_version,int,,,0
+printf,gdbm_version,"%s\n\n",int,,,1
+dup2,save_fd,fd,int,,,0
+dup2,fd,save_fd,int,,,1
+id3_field_init,&,frametype,int,,,0
+id3_field_init,frametype,&,int,,,1
+realloc,tag,(,void *,_Block,_Size,0
+realloc,(,tag,void *,_Block,_Size,1
+strcmp,pCurToken,"/>",int,_Str1,_Str2,0
+strcmp,"/>",pCurToken,int,_Str1,_Str2,1
+strcmp,pCurToken,">",int,_Str1,_Str2,0
+strcmp,">",pCurToken,int,_Str1,_Str2,1
+strcmp,pCurToken,">",int,_Str1,_Str2,0
+strcmp,">",pCurToken,int,_Str1,_Str2,1
+strcmp,pCurToken,"<",int,_Str1,_Str2,0
+strcmp,"<",pCurToken,int,_Str1,_Str2,1
+strcmp,pCurToken,">",int,_Str1,_Str2,0
+strcmp,">",pCurToken,int,_Str1,_Str2,1
+strcmp,pCurToken,ENDTAG,int,_Str1,_Str2,0
+strcmp,ENDTAG,pCurToken,int,_Str1,_Str2,1
+strcmp,pCurToken,COMPLETETAG,int,_Str1,_Str2,0
+strcmp,COMPLETETAG,pCurToken,int,_Str1,_Str2,1
+SampleUtil_Print,"ActRequest  =  %s\n",xmlbuff,int,,,0
+SampleUtil_Print,xmlbuff,"ActRequest  =  %s\n",int,,,1
+SampleUtil_Print,"ActResult   =  %s\n",xmlbuff,int,,,0
+SampleUtil_Print,xmlbuff,"ActResult   =  %s\n",int,,,1
+SampleUtil_Print,"ActRequest  =  %s\n",xmlbuff,int,,,0
+SampleUtil_Print,xmlbuff,"ActRequest  =  %s\n",int,,,1
+SampleUtil_Print,"ActResult   =  %s\n",xmlbuff,int,,,0
+SampleUtil_Print,xmlbuff,"ActResult   =  %s\n",int,,,1
+SampleUtil_Print,"ChangedVars =  %s\n",xmlbuff,int,,,0
+SampleUtil_Print,xmlbuff,"ChangedVars =  %s\n",int,,,1
+strcmp,deviceType,TvDeviceType,int,,,0
+strcmp,TvDeviceType,deviceType,int,,,1
+strcasecmp,cmd,cmdloop_cmdlist,int,,,0
+strcasecmp,cmdloop_cmdlist,cmd,int,,,1
+TvCtrlPointSendSetChannel,arg1,arg2,int,,,0
+TvCtrlPointSendSetChannel,arg2,arg1,int,,,1
+TvCtrlPointSendSetVolume,arg1,arg2,int,,,0
+TvCtrlPointSendSetVolume,arg2,arg1,int,,,1
+TvCtrlPointSendSetColor,arg1,arg2,int,,,0
+TvCtrlPointSendSetColor,arg2,arg1,int,,,1
+TvCtrlPointSendSetTint,arg1,arg2,int,,,0
+TvCtrlPointSendSetTint,arg2,arg1,int,,,1
+TvCtrlPointSendSetContrast,arg1,arg2,int,,,0
+TvCtrlPointSendSetContrast,arg2,arg1,int,,,1
+TvCtrlPointSendSetBrightness,arg1,arg2,int,,,0
+TvCtrlPointSendSetBrightness,arg2,arg1,int,,,1
+SampleUtil_Print,"Specifying the webserver root directory -- %s\n",web_dir_path,int,,,0
+SampleUtil_Print,web_dir_path,"Specifying the webserver root directory -- %s\n",int,,,1
+SampleUtil_Print,"Registering the RootDevice\n\t with desc_doc_url: %s\n",desc_doc_url,int,,,0
+SampleUtil_Print,desc_doc_url,"Registering the RootDevice\n\t with desc_doc_url: %s\n",int,,,1
+printf,"%s",string,int,,,0
+printf,string,"%s",int,,,1
+strcasecmp,cmd,"exit",int,,,0
+strcasecmp,"exit",cmd,int,,,1
+SampleUtil_Print,"\n   Unknown command: %s\n\n",cmd,int,,,0
+SampleUtil_Print,cmd,"\n   Unknown command: %s\n\n",int,,,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+fopen,errFileName,"a",FILE *,_FileName,_Mode,0
+fopen,"a",errFileName,FILE *,_FileName,_Mode,1
+fopen,infoFileName,"a",FILE *,_FileName,_Mode,0
+fopen,"a",infoFileName,FILE *,_FileName,_Mode,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+strstr,urlPath,"//",char *,_Str,_SubStr,0
+strstr,"//",urlPath,char *,_Str,_SubStr,1
+strstr,urlPath,"//",char *,_Str,_SubStr,0
+strstr,"//",urlPath,char *,_Str,_SubStr,1
+strstr,urlPath,"//",char *,_Str,_SubStr,0
+strstr,"//",urlPath,char *,_Str,_SubStr,1
+strstr,urlPath,"//",char *,_Str,_SubStr,0
+strstr,"//",urlPath,char *,_Str,_SubStr,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+strcasecmp,extension,gMediaTypeList,int,,,0
+strcasecmp,gMediaTypeList,extension,int,,,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+strcmp,argv,"-v",int,_Str1,_Str2,0
+strcmp,"-v",argv,int,_Str1,_Str2,1
+LIST_ADD,busses,bus,int,,,0
+LIST_ADD,bus,busses,int,,,1
+LIST_DEL,new_busses,nbus,int,,,0
+LIST_DEL,nbus,new_busses,int,,,1
+LIST_DEL,new_busses,bus,int,,,0
+LIST_DEL,bus,new_busses,int,,,1
+LIST_ADD,devices,dev,int,,,0
+LIST_ADD,dev,devices,int,,,1
+copy_endpoint_descriptor,dest,&,int,dest,src,0
+copy_endpoint_descriptor,&,dest,int,dest,src,1
+copy_interface_descriptor,dest,&,int,dest,src,0
+copy_interface_descriptor,&,dest,int,dest,src,1
+copy_interface,dest,&,int,dest,src,0
+copy_interface,&,dest,int,dest,src,1
+LIST_DEL,new_devices,ndev,int,,,0
+LIST_DEL,ndev,new_devices,int,,,1
+LIST_DEL,new_devices,dev,int,,,0
+LIST_DEL,dev,new_devices,int,,,1
+LIST_ADD,fbus,bus,int,,,0
+LIST_ADD,bus,fbus,int,,,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+LIST_ADD,fbus,bus,int,,,0
+LIST_ADD,bus,fbus,int,,,1
+LIST_ADD,fdev,dev,int,,,0
+LIST_ADD,dev,fdev,int,,,1
+LIST_ADD,fbus,bus,int,,,0
+LIST_ADD,bus,fbus,int,,,1
+LIST_ADD,fdev,dev,int,,,0
+LIST_ADD,dev,fdev,int,,,1
+strcmp,bus,nbus,int,_Str1,_Str2,0
+strcmp,nbus,bus,int,_Str1,_Str2,1
+LIST_DEL,busses,nbus,int,,,0
+LIST_DEL,nbus,busses,int,,,1
+LIST_DEL,usb_busses,bus,int,,,0
+LIST_DEL,bus,usb_busses,int,,,1
+LIST_DEL,busses,bus,int,,,0
+LIST_DEL,bus,busses,int,,,1
+LIST_ADD,usb_busses,bus,int,,,0
+LIST_ADD,bus,usb_busses,int,,,1
+strcmp,dev,ndev,int,_Str1,_Str2,0
+strcmp,ndev,dev,int,_Str1,_Str2,1
+LIST_DEL,devices,ndev,int,,,0
+LIST_DEL,ndev,devices,int,,,1
+LIST_DEL,devices,dev,int,,,0
+LIST_DEL,dev,devices,int,,,1
+strcmp,argv,"-v",int,_Str1,_Str2,0
+strcmp,"-v",argv,int,_Str1,_Str2,1
+fopen,filename,"w",FILE *,_FileName,_Mode,0
+fopen,"w",filename,FILE *,_FileName,_Mode,1
+fopen,filename,"w",FILE *,_FileName,_Mode,0
+fopen,"w",filename,FILE *,_FileName,_Mode,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+calloc,cnt,sizeof,void *,_Count,_Size,0
+calloc,sizeof,cnt,void *,_Count,_Size,1
+usbi_remove_pollfd,HANDLE_CTX,fd,int,,,0
+usbi_remove_pollfd,fd,HANDLE_CTX,int,,,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_setmode,_fileno,,int,_FileHandle,_Mode,0
+_setmode,,_fileno,int,_FileHandle,_Mode,1
+_setmode,_fileno,,int,_FileHandle,_Mode,0
+_setmode,,_fileno,int,_FileHandle,_Mode,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_setmode,_fileno,,int,_FileHandle,_Mode,0
+_setmode,,_fileno,int,_FileHandle,_Mode,1
+_setmode,_fileno,,int,_FileHandle,_Mode,0
+_setmode,,_fileno,int,_FileHandle,_Mode,1
+fopen,"a.m","w",FILE *,_FileName,_Mode,0
+fopen,"w","a.m",FILE *,_FileName,_Mode,1
+fopen,"b.m","w",FILE *,_FileName,_Mode,0
+fopen,"w","b.m",FILE *,_FileName,_Mode,1
+_setmode,_fileno,,int,_FileHandle,_Mode,0
+_setmode,,_fileno,int,_FileHandle,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_setmode,_fileno,,int,_FileHandle,_Mode,0
+_setmode,,_fileno,int,_FileHandle,_Mode,1
+_setmode,_fileno,,int,_FileHandle,_Mode,0
+_setmode,,_fileno,int,_FileHandle,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+fopen,buffer,"w",FILE *,_FileName,_Mode,0
+fopen,"w",buffer,FILE *,_FileName,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+fopen,path,"rb",FILE *,_FileName,_Mode,0
+fopen,"rb",path,FILE *,_FileName,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+fopen,filename,"wb",FILE *,_FileName,_Mode,0
+fopen,"wb",filename,FILE *,_FileName,_Mode,1
+fopen,filename,"rb",FILE *,_FileName,_Mode,0
+fopen,"rb",filename,FILE *,_FileName,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+strstr,line,s,char *,_Str,_SubStr,0
+strstr,s,line,char *,_Str,_SubStr,1
+fopen,filename,"r",FILE *,_FileName,_Mode,0
+fopen,"r",filename,FILE *,_FileName,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+fopen,filename,"r",FILE *,_FileName,_Mode,0
+fopen,"r",filename,FILE *,_FileName,_Mode,1
+fopen,filename,"w",FILE *,_FileName,_Mode,0
+fopen,"w",filename,FILE *,_FileName,_Mode,1
+rline,in,out,char *,in,out,0
+rline,out,in,char *,in,out,1
+rline,in,out,char *,in,out,0
+rline,out,in,char *,in,out,1
+rline,in,out,char *,in,out,0
+rline,out,in,char *,in,out,1
+rline,in,out,char *,in,out,0
+rline,out,in,char *,in,out,1
+rline,in,out,char *,in,out,0
+rline,out,in,char *,in,out,1
+rline,in,out,char *,in,out,0
+rline,out,in,char *,in,out,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+fopen,argv,"r",FILE *,_FileName,_Mode,0
+fopen,"r",argv,FILE *,_FileName,_Mode,1
+strcmp,strrchr,".vqh",int,_Str1,_Str2,0
+strcmp,".vqh",strrchr,int,_Str1,_Str2,1
+calloc,bins,sizeof,void *,_Count,_Size,0
+calloc,sizeof,bins,void *,_Count,_Size,1
+calloc,bins,sizeof,void *,_Count,_Size,0
+calloc,sizeof,bins,void *,_Count,_Size,1
+calloc,bins,sizeof,void *,_Count,_Size,0
+calloc,sizeof,bins,void *,_Count,_Size,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+fopen,infile,"r",FILE *,_FileName,_Mode,0
+fopen,"r",infile,FILE *,_FileName,_Mode,1
+pow,maxval,subn,double,_X,_Y,0
+pow,subn,maxval,double,_X,_Y,1
+fopen,buffer,"w",FILE *,_FileName,_Mode,0
+fopen,"w",buffer,FILE *,_FileName,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+fopen,filename,"r",FILE *,_FileName,_Mode,0
+fopen,"r",filename,FILE *,_FileName,_Mode,1
+pow,quantvals,dim,double,_X,_Y,0
+pow,dim,quantvals,double,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+strcmp,ext,"vqh",int,_Str1,_Str2,0
+strcmp,"vqh",ext,int,_Str1,_Str2,1
+strcmp,ext,"vqd",int,_Str1,_Str2,0
+strcmp,"vqd",ext,int,_Str1,_Str2,1
+fopen,name,"r",FILE *,_FileName,_Mode,0
+fopen,"r",name,FILE *,_FileName,_Mode,1
+fopen,buff,"w",FILE *,_FileName,_Mode,0
+fopen,"w",buff,FILE *,_FileName,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+fopen,argv,"r",FILE *,_FileName,_Mode,0
+fopen,"r",argv,FILE *,_FileName,_Mode,1
+strrcmp_i,argv,"latticetune",int,s,cmp,0
+strrcmp_i,"latticetune",argv,int,s,cmp,1
+strrcmp_i,argv,"res0tune",int,s,cmp,0
+strrcmp_i,"res0tune",argv,int,s,cmp,1
+strrcmp_i,argv,"res1tune",int,s,cmp,0
+strrcmp_i,"res1tune",argv,int,s,cmp,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+strcmp,argv,".vqd",int,_Str1,_Str2,0
+strcmp,".vqd",argv,int,_Str1,_Str2,1
+fopen,argv,"r",FILE *,_FileName,_Mode,0
+fopen,"r",argv,FILE *,_FileName,_Mode,1
+fopen,buffer,"w",FILE *,_FileName,_Mode,0
+fopen,"w",buffer,FILE *,_FileName,_Mode,1
+fopen,buffer,"w",FILE *,_FileName,_Mode,0
+fopen,"w",buffer,FILE *,_FileName,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+strcmp,ext,"vqh",int,_Str1,_Str2,0
+strcmp,"vqh",ext,int,_Str1,_Str2,1
+strcmp,ext,"vqd",int,_Str1,_Str2,0
+strcmp,"vqd",ext,int,_Str1,_Str2,1
+fopen,name,"r",FILE *,_FileName,_Mode,0
+fopen,"r",name,FILE *,_FileName,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+fopen,filename,"r",FILE *,_FileName,_Mode,0
+fopen,"r",filename,FILE *,_FileName,_Mode,1
+fopen,filename,"w",FILE *,_FileName,_Mode,0
+fopen,"w",filename,FILE *,_FileName,_Mode,1
+fopen,file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",file,FILE *,_FileName,_Mode,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+strcmp,xmlCharEncodingAliases,upper,int,_Str1,_Str2,0
+strcmp,upper,xmlCharEncodingAliases,int,_Str1,_Str2,1
+strcmp,xmlCharEncodingAliases,upper,int,_Str1,_Str2,0
+strcmp,upper,xmlCharEncodingAliases,int,_Str1,_Str2,1
+strcmp,xmlCharEncodingAliases,alias,int,_Str1,_Str2,0
+strcmp,alias,xmlCharEncodingAliases,int,_Str1,_Str2,1
+strcmp,name,canon,int,_Str1,_Str2,0
+strcmp,canon,name,int,_Str1,_Str2,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+strcmp,argv,"-base",int,_Str1,_Str2,0
+strcmp,"-base",argv,int,_Str1,_Str2,1
+strcmp,argv,"--base",int,_Str1,_Str2,0
+strcmp,"--base",argv,int,_Str1,_Str2,1
+strcmp,argv,"-escape",int,_Str1,_Str2,0
+strcmp,"-escape",argv,int,_Str1,_Str2,1
+strcmp,argv,"--escape",int,_Str1,_Str2,0
+strcmp,"--escape",argv,int,_Str1,_Str2,1
+strcmp,argv,"-debug",int,_Str1,_Str2,0
+strcmp,"-debug",argv,int,_Str1,_Str2,1
+strcmp,argv,"--debug",int,_Str1,_Str2,0
+strcmp,"--debug",argv,int,_Str1,_Str2,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+_hypotf,_X,_Y,float,_X,_Y,0
+_hypotf,_Y,_X,float,_X,_Y,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+strcmp,filename,"-",int,_Str1,_Str2,0
+strcmp,"-",filename,int,_Str1,_Str2,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+printf,"Usage : %s [options] XMLfiles ...\n",name,int,,,0
+printf,name,"Usage : %s [options] XMLfiles ...\n",int,,,1
+strcmp,argv,"-encode",int,_Str1,_Str2,0
+strcmp,"-encode",argv,int,_Str1,_Str2,1
+strcmp,argv,"--encode",int,_Str1,_Str2,0
+strcmp,"--encode",argv,int,_Str1,_Str2,1
+strcmp,argv,"-o",int,_Str1,_Str2,0
+strcmp,"-o",argv,int,_Str1,_Str2,1
+strcmp,argv,"-output",int,_Str1,_Str2,0
+strcmp,"-output",argv,int,_Str1,_Str2,1
+strcmp,argv,"--output",int,_Str1,_Str2,0
+strcmp,"--output",argv,int,_Str1,_Str2,1
+strcmp,argv,"-relaxng",int,_Str1,_Str2,0
+strcmp,"-relaxng",argv,int,_Str1,_Str2,1
+strcmp,argv,"--relaxng",int,_Str1,_Str2,0
+strcmp,"--relaxng",argv,int,_Str1,_Str2,1
+strcmp,argv,"-maxmem",int,_Str1,_Str2,0
+strcmp,"-maxmem",argv,int,_Str1,_Str2,1
+strcmp,argv,"--maxmem",int,_Str1,_Str2,0
+strcmp,"--maxmem",argv,int,_Str1,_Str2,1
+strcmp,argv,"-schema",int,_Str1,_Str2,0
+strcmp,"-schema",argv,int,_Str1,_Str2,1
+strcmp,argv,"--schema",int,_Str1,_Str2,0
+strcmp,"--schema",argv,int,_Str1,_Str2,1
+strcmp,argv,"-schematron",int,_Str1,_Str2,0
+strcmp,"-schematron",argv,int,_Str1,_Str2,1
+strcmp,argv,"--schematron",int,_Str1,_Str2,0
+strcmp,"--schematron",argv,int,_Str1,_Str2,1
+strcmp,argv,"-",int,_Str1,_Str2,0
+strcmp,"-",argv,int,_Str1,_Str2,1
+Py_BuildValue,(,str,int,,,0
+Py_BuildValue,str,(,int,,,1
+fopen,g_temp_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",g_temp_file,FILE *,_FileName,_Mode,1
+fopen,g_temp_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",g_temp_file,FILE *,_FileName,_Mode,1
+fopen,"/proc/net/arp","r",FILE *,_FileName,_Mode,0
+fopen,"r","/proc/net/arp",FILE *,_FileName,_Mode,1
+strcmp,device,g_scan_interface,int,_Str1,_Str2,0
+strcmp,g_scan_interface,device,int,_Str1,_Str2,1
+fopen,"/tmp/lighttpd/lighttpd-arpping.pid","r",FILE *,_FileName,_Mode,0
+fopen,"r","/tmp/lighttpd/lighttpd-arpping.pid",FILE *,_FileName,_Mode,1
+fopen,"/tmp/lighttpd/lighttpd-arpping.pid","w",FILE *,_FileName,_Mode,0
+fopen,"w","/tmp/lighttpd/lighttpd-arpping.pid",FILE *,_FileName,_Mode,1
+buffer_append_string_buffer,yygotominor,yymsp,int,,,0
+buffer_append_string_buffer,yymsp,yygotominor,int,,,1
+array_insert_unique,yygotominor,yymsp,int,,,0
+array_insert_unique,yymsp,yygotominor,int,,,1
+strstr,decode_str,"?",char *,_Str,_SubStr,0
+strstr,"?",decode_str,char *,_Str,_SubStr,1
+difftime,expire_time,cur_time,int,,,0
+difftime,cur_time,expire_time,int,,,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+strcasecmp,algorithm,"md5-sess",int,,,0
+strcasecmp,"md5-sess",algorithm,int,,,1
+strcasecmp,algorithm,"md5-sess",int,,,0
+strcasecmp,"md5-sess",algorithm,int,,,1
+strcasecmp,qop,"auth-int",int,,,0
+strcasecmp,"auth-int",qop,int,,,1
+strcmp,a2,respons,int,_Str1,_Str2,0
+strcmp,respons,a2,int,_Str1,_Str2,1
+SetUnion,s1,s2,int,s1,s2,0
+SetUnion,s2,s1,int,s1,s2,1
+SetUnion,plp,cfp,int,s1,s2,0
+SetUnion,cfp,plp,int,s1,s2,1
+SetUnion,newcfp,xsp,int,s1,s2,0
+SetUnion,xsp,newcfp,int,s1,s2,1
+,a,b,int,,,0
+,b,a,int,,,1
+,a,b,int,,,0
+,b,a,int,,,1
+strcmp,argv,"--",int,_Str1,_Str2,0
+strcmp,"--",argv,int,_Str1,_Str2,1
+strcmp,&,op,int,_Str1,_Str2,0
+strcmp,op,&,int,_Str1,_Str2,1
+strcmp,argv,op,int,_Str1,_Str2,0
+strcmp,op,argv,int,_Str1,_Str2,1
+strcmp,argv,"--",int,_Str1,_Str2,0
+strcmp,"--",argv,int,_Str1,_Str2,1
+strcmp,x,"name",int,_Str1,_Str2,0
+strcmp,"name",x,int,_Str1,_Str2,1
+strcmp,x,"include",int,_Str1,_Str2,0
+strcmp,"include",x,int,_Str1,_Str2,1
+strcmp,x,"code",int,_Str1,_Str2,0
+strcmp,"code",x,int,_Str1,_Str2,1
+strcmp,x,"token_destructor",int,_Str1,_Str2,0
+strcmp,"token_destructor",x,int,_Str1,_Str2,1
+strcmp,x,"default_destructor",int,_Str1,_Str2,0
+strcmp,"default_destructor",x,int,_Str1,_Str2,1
+strcmp,x,"token_prefix",int,_Str1,_Str2,0
+strcmp,"token_prefix",x,int,_Str1,_Str2,1
+strcmp,x,"syntax_error",int,_Str1,_Str2,0
+strcmp,"syntax_error",x,int,_Str1,_Str2,1
+strcmp,x,"parse_accept",int,_Str1,_Str2,0
+strcmp,"parse_accept",x,int,_Str1,_Str2,1
+strcmp,x,"parse_failure",int,_Str1,_Str2,0
+strcmp,"parse_failure",x,int,_Str1,_Str2,1
+strcmp,x,"stack_overflow",int,_Str1,_Str2,0
+strcmp,"stack_overflow",x,int,_Str1,_Str2,1
+strcmp,x,"extra_argument",int,_Str1,_Str2,0
+strcmp,"extra_argument",x,int,_Str1,_Str2,1
+strcmp,x,"token_type",int,_Str1,_Str2,0
+strcmp,"token_type",x,int,_Str1,_Str2,1
+strcmp,x,"default_type",int,_Str1,_Str2,0
+strcmp,"default_type",x,int,_Str1,_Str2,1
+strcmp,x,"stack_size",int,_Str1,_Str2,0
+strcmp,"stack_size",x,int,_Str1,_Str2,1
+strcmp,x,"start_symbol",int,_Str1,_Str2,0
+strcmp,"start_symbol",x,int,_Str1,_Str2,1
+strcmp,x,"left",int,_Str1,_Str2,0
+strcmp,"left",x,int,_Str1,_Str2,1
+strcmp,x,"right",int,_Str1,_Str2,0
+strcmp,"right",x,int,_Str1,_Str2,1
+strcmp,x,"nonassoc",int,_Str1,_Str2,0
+strcmp,"nonassoc",x,int,_Str1,_Str2,1
+strcmp,x,"destructor",int,_Str1,_Str2,0
+strcmp,"destructor",x,int,_Str1,_Str2,1
+strcmp,x,"type",int,_Str1,_Str2,0
+strcmp,"type",x,int,_Str1,_Str2,1
+strcmp,x,"fallback",int,_Str1,_Str2,0
+strcmp,"fallback",x,int,_Str1,_Str2,1
+fopen,ps,"rb",FILE *,_FileName,_Mode,0
+fopen,"rb",ps,FILE *,_FileName,_Mode,1
+fopen,lemp,mode,FILE *,_FileName,_Mode,0
+fopen,mode,lemp,FILE *,_FileName,_Mode,1
+fopen,tpltname,"r",FILE *,_FileName,_Mode,0
+fopen,"r",tpltname,FILE *,_FileName,_Mode,1
+strcmp,cp,rp,int,_Str1,_Str2,0
+strcmp,rp,cp,int,_Str1,_Str2,1
+strcmp,cp,rp,int,_Str1,_Str2,0
+strcmp,rp,cp,int,_Str1,_Str2,1
+strcmp,types,stddt,int,_Str1,_Str2,0
+strcmp,stddt,types,int,_Str1,_Str2,1
+strcmp,line,pattern,int,_Str1,_Str2,0
+strcmp,pattern,line,int,_Str1,_Str2,1
+strcmp,np,data,int,_Str1,_Str2,0
+strcmp,data,np,int,_Str1,_Str2,1
+strcmp,np,key,int,_Str1,_Str2,0
+strcmp,key,np,int,_Str1,_Str2,1
+strcmp,np,key,int,_Str1,_Str2,0
+strcmp,key,np,int,_Str1,_Str2,1
+strcmp,np,key,int,_Str1,_Str2,0
+strcmp,key,np,int,_Str1,_Str2,1
+statecmp,np,key,int,a,b,0
+statecmp,key,np,int,a,b,1
+statecmp,np,key,int,a,b,0
+statecmp,key,np,int,a,b,1
+Configcmp,np,data,int,a,b,0
+Configcmp,data,np,int,a,b,1
+Configcmp,np,key,int,a,b,0
+Configcmp,key,np,int,a,b,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+fopen,"/tmp/lighttpd/lighttpd-arpping.pid","r",FILE *,_FileName,_Mode,0
+fopen,"r","/tmp/lighttpd/lighttpd-arpping.pid",FILE *,_FileName,_Mode,1
+fopen,"/tmp/lighttpd/lighttpd-monitor.pid","r",FILE *,_FileName,_Mode,0
+fopen,"r","/tmp/lighttpd/lighttpd-monitor.pid",FILE *,_FileName,_Mode,1
+fopen,"/tmp/lighttpd/lighttpd-monitor.pid","w",FILE *,_FileName,_Mode,0
+fopen,"w","/tmp/lighttpd/lighttpd-monitor.pid",FILE *,_FileName,_Mode,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+dup2,tmpfd,fd,int,,,0
+dup2,fd,tmpfd,int,,,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+strstr,value,"identity",char *,_Str,_SubStr,0
+strstr,"identity",value,char *,_Str,_SubStr,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,,,0
+calloc,sizeof,1,void *,,,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+strcmp,ts,"years",int,_Str1,_Str2,0
+strcmp,"years",ts,int,_Str1,_Str2,1
+strcmp,ts,"months",int,_Str1,_Str2,0
+strcmp,"months",ts,int,_Str1,_Str2,1
+strcmp,ts,"weeks",int,_Str1,_Str2,0
+strcmp,"weeks",ts,int,_Str1,_Str2,1
+strcmp,ts,"days",int,_Str1,_Str2,0
+strcmp,"days",ts,int,_Str1,_Str2,1
+strcmp,ts,"hours",int,_Str1,_Str2,0
+strcmp,"hours",ts,int,_Str1,_Str2,1
+strcmp,ts,"minutes",int,_Str1,_Str2,0
+strcmp,"minutes",ts,int,_Str1,_Str2,1
+strcmp,ts,"seconds",int,_Str1,_Str2,0
+strcmp,"seconds",ts,int,_Str1,_Str2,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+buffer_append_string_buffer,proc,host,int,,,0
+buffer_append_string_buffer,host,proc,int,,,1
+listen,fcgi_fd,1024,int,,,0
+listen,1024,fcgi_fd,int,,,1
+buffer_append_string_buffer,proc,host,int,,,0
+buffer_append_string_buffer,host,proc,int,,,1
+buffer_copy_string_buffer,p,host,int,,,0
+buffer_copy_string_buffer,host,p,int,,,1
+buffer_copy_string_buffer,p,host,int,,,0
+buffer_copy_string_buffer,host,p,int,,,1
+buffer_copy_string_buffer,hctx,packet,int,,,0
+buffer_copy_string_buffer,packet,hctx,int,,,1
+buffer_append_string_buffer,hctx,packet,int,,,0
+buffer_append_string_buffer,packet,hctx,int,,,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+strstr,s,"\r\n",char *,_Str,_SubStr,0
+strstr,"\r\n",s,char *,_Str,_SubStr,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+buffer_append_string_buffer,p,s,int,,,0
+buffer_append_string_buffer,s,p,int,,,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+listen,scgi_fd,1024,int,,,0
+listen,1024,scgi_fd,int,,,1
+buffer_copy_string_buffer,p,host,int,,,0
+buffer_copy_string_buffer,host,p,int,,,1
+buffer_copy_string_buffer,p,host,int,,,0
+buffer_copy_string_buffer,host,p,int,,,1
+strstr,s,"\r\n",char *,_Str,_SubStr,0
+strstr,"\r\n",s,char *,_Str,_SubStr,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+strcmp,file_ext,"jpg",int,_Str1,_Str2,0
+strcmp,"jpg",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"jpeg",int,_Str1,_Str2,0
+strcmp,"jpeg",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"png",int,_Str1,_Str2,0
+strcmp,"png",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"gif",int,_Str1,_Str2,0
+strcmp,"gif",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"bmp",int,_Str1,_Str2,0
+strcmp,"bmp",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"mp3",int,_Str1,_Str2,0
+strcmp,"mp3",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"m4a",int,_Str1,_Str2,0
+strcmp,"m4a",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"m4r",int,_Str1,_Str2,0
+strcmp,"m4r",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"wav",int,_Str1,_Str2,0
+strcmp,"wav",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"mp4",int,_Str1,_Str2,0
+strcmp,"mp4",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"rmvb",int,_Str1,_Str2,0
+strcmp,"rmvb",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"m4v",int,_Str1,_Str2,0
+strcmp,"m4v",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"wmv",int,_Str1,_Str2,0
+strcmp,"wmv",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"avi",int,_Str1,_Str2,0
+strcmp,"avi",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"mpg",int,_Str1,_Str2,0
+strcmp,"mpg",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"mpeg",int,_Str1,_Str2,0
+strcmp,"mpeg",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"mkv",int,_Str1,_Str2,0
+strcmp,"mkv",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"mov",int,_Str1,_Str2,0
+strcmp,"mov",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"flv",int,_Str1,_Str2,0
+strcmp,"flv",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"3gp",int,_Str1,_Str2,0
+strcmp,"3gp",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"m2v",int,_Str1,_Str2,0
+strcmp,"m2v",file_ext,int,_Str1,_Str2,1
+strcmp,file_ext,"rm",int,_Str1,_Str2,0
+strcmp,"rm",file_ext,int,_Str1,_Str2,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+strcmp,enable_webdav_block,"1",int,_Str1,_Str2,0
+strcmp,"1",enable_webdav_block,int,_Str1,_Str2,1
+strcmp,is_webdav_block,"1",int,_Str1,_Str2,0
+strcmp,"1",is_webdav_block,int,_Str1,_Str2,1
+calloc,1,bytes,void *,_Count,_Size,0
+calloc,bytes,1,void *,_Count,_Size,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+strcmp,l,ssicmds,int,_Str1,_Str2,0
+strcmp,ssicmds,l,int,_Str1,_Str2,1
+strcmp,l,"var",int,_Str1,_Str2,0
+strcmp,"var",l,int,_Str1,_Str2,1
+strcmp,l,echovars,int,_Str1,_Str2,0
+strcmp,echovars,l,int,_Str1,_Str2,1
+strcmp,l,"encoding",int,_Str1,_Str2,0
+strcmp,"encoding",l,int,_Str1,_Str2,1
+strcmp,l,"file",int,_Str1,_Str2,0
+strcmp,"file",l,int,_Str1,_Str2,1
+strcmp,l,"virtual",int,_Str1,_Str2,0
+strcmp,"virtual",l,int,_Str1,_Str2,1
+strcmp,l,"var",int,_Str1,_Str2,0
+strcmp,"var",l,int,_Str1,_Str2,1
+strcmp,l,"value",int,_Str1,_Str2,0
+strcmp,"value",l,int,_Str1,_Str2,1
+strcmp,l,"timefmt",int,_Str1,_Str2,0
+strcmp,"timefmt",l,int,_Str1,_Str2,1
+strcmp,l,"sizefmt",int,_Str1,_Str2,0
+strcmp,"sizefmt",l,int,_Str1,_Str2,1
+strcmp,l,"abbrev",int,_Str1,_Str2,0
+strcmp,"abbrev",l,int,_Str1,_Str2,1
+strcmp,l,"abbrev",int,_Str1,_Str2,0
+strcmp,"abbrev",l,int,_Str1,_Str2,1
+strcmp,l,"cmd",int,_Str1,_Str2,0
+strcmp,"cmd",l,int,_Str1,_Str2,1
+strcmp,l,"expr",int,_Str1,_Str2,0
+strcmp,"expr",l,int,_Str1,_Str2,1
+strcmp,l,"expr",int,_Str1,_Str2,0
+strcmp,"expr",l,int,_Str1,_Str2,1
+buffer_append_string_buffer,yygotominor,yymsp,int,,,0
+buffer_append_string_buffer,yymsp,yygotominor,int,,,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+calloc,1,sizeof,void *,_Count,_Size,0
+calloc,sizeof,1,void *,_Count,_Size,1
+strcmp,prop_name,"resourcetype",int,_Str1,_Str2,0
+strcmp,"resourcetype",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"getcontenttype",int,_Str1,_Str2,0
+strcmp,"getcontenttype",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"creationdate",int,_Str1,_Str2,0
+strcmp,"creationdate",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"getlastmodified",int,_Str1,_Str2,0
+strcmp,"getlastmodified",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"getcontentlength",int,_Str1,_Str2,0
+strcmp,"getcontentlength",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"getcontentlanguage",int,_Str1,_Str2,0
+strcmp,"getcontentlanguage",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"getmac",int,_Str1,_Str2,0
+strcmp,"getmac",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"getonline",int,_Str1,_Str2,0
+strcmp,"getonline",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"getuniqueid",int,_Str1,_Str2,0
+strcmp,"getuniqueid",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"getattr",int,_Str1,_Str2,0
+strcmp,"getattr",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"gettype",int,_Str1,_Str2,0
+strcmp,"gettype",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"getuseragent",int,_Str1,_Str2,0
+strcmp,"getuseragent",prop_name,int,_Str1,_Str2,1
+strcmp,prop_name,"getroutersync",int,_Str1,_Str2,0
+strcmp,"getroutersync",prop_name,int,_Str1,_Str2,1
+strcmp,prop_ns,"DAV:",int,_Str1,_Str2,0
+strcmp,"DAV:",prop_ns,int,_Str1,_Str2,1
+strstr,start,"://",char *,_Str,_SubStr,0
+strstr,"://",start,char *,_Str,_SubStr,1
+fopen,aicloud_version_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",aicloud_version_file,FILE *,_FileName,_Mode,1
+popen,querycmd,"r",int,,,0
+popen,"r",querycmd,int,,,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+printf,"\nEvent Handlers:\n\n%s",features,int,,,0
+printf,features,"\nEvent Handlers:\n\n%s",int,,,1
+strstr,st,orig,char *,,,0
+strstr,orig,st,char *,,,1
+smbc_rename,src,dst,int,,,0
+smbc_rename,dst,src,int,,,1
+strstr,pPath,"\\",char *,,,0
+strstr,"\\",pPath,char *,,,1
+strstr,pPath,"\\",char *,,,0
+strstr,"\\",pPath,char *,,,1
+strstr,aa,"/",char *,,,0
+strstr,"/",aa,char *,,,1
+strstr,bb,"/",char *,,,0
+strstr,"/",bb,char *,,,1
+str2hexstr,seed_str,&,void,str,hex,0
+str2hexstr,&,seed_str,void,str,hex,1
+getshiftamount,key,binstr,int,seed_str,orignaldostr,0
+getshiftamount,binstr,key,int,seed_str,orignaldostr,1
+getshiftamount,key,ibinstr,int,seed_str,orignaldostr,0
+getshiftamount,ibinstr,key,int,seed_str,orignaldostr,1
+strcmp,username,name,int,,,0
+strcmp,name,username,int,,,1
+strcmp,password,pass,int,,,0
+strcmp,pass,password,int,,,1
+fopen,g_temp_sharelink_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",g_temp_sharelink_file,FILE *,_FileName,_Mode,1
+fopen,g_temp_sharelink_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",g_temp_sharelink_file,FILE *,_FileName,_Mode,1
+fopen,"/tmp/lighttpd/lighttpd-arpping.pid","r",FILE *,_FileName,_Mode,0
+fopen,"r","/tmp/lighttpd/lighttpd-arpping.pid",FILE *,_FileName,_Mode,1
+strcmp,pch2,"delete",int,,,0
+strcmp,"delete",pch2,int,,,1
+strcmp,p,"ok",int,_Str1,_Str2,0
+strcmp,"ok",p,int,_Str1,_Str2,1
+strcmp,p,"lf",int,_Str1,_Str2,0
+strcmp,"lf",p,int,_Str1,_Str2,1
+strcmp,p,"crlf",int,_Str1,_Str2,0
+strcmp,"crlf",p,int,_Str1,_Str2,1
+strcmp,p,"slow-lf",int,_Str1,_Str2,0
+strcmp,"slow-lf",p,int,_Str1,_Str2,1
+strcmp,p,"slow-crlf",int,_Str1,_Str2,0
+strcmp,"slow-crlf",p,int,_Str1,_Str2,1
+strcmp,p,"die-at-end",int,_Str1,_Str2,0
+strcmp,"die-at-end",p,int,_Str1,_Str2,1
+strcmp,p,"path_info",int,_Str1,_Str2,0
+strcmp,"path_info",p,int,_Str1,_Str2,1
+strcmp,p,"script_name",int,_Str1,_Str2,0
+strcmp,"script_name",p,int,_Str1,_Str2,1
+ntfs_log_debug,"Couldn't convert name to Unicode: ",p,int,,,0
+ntfs_log_debug,p,"Couldn't convert name to Unicode: ",int,,,1
+g_return_val_if_fail,name_len,-,int,,,0
+g_return_val_if_fail,-,name_len,int,,,1
+ntfs_log_debug,"'%s' ",s,int,,,0
+ntfs_log_debug,s,"'%s' ",int,,,1
+ntfs_log_trace,"%s\n",ret,int,,,0
+ntfs_log_trace,ret,"%s\n",int,,,1
+strcmp,option,"--log-debug",int,,,0
+strcmp,"--log-debug",option,int,,,1
+strcmp,option,"--log-verbose",int,,,0
+strcmp,"--log-verbose",option,int,,,1
+strcmp,option,"--log-quiet",int,,,0
+strcmp,"--log-quiet",option,int,,,1
+strcmp,option,"--log-trace",int,,,0
+strcmp,"--log-trace",option,int,,,1
+strcmp,option,"--log-colour",int,,,0
+strcmp,"--log-colour",option,int,,,1
+strcmp,option,"--log-color",int,,,0
+strcmp,"--log-color",option,int,,,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+ntfs_log_error,"Option '%s' requires an ",argv,int,,,0
+ntfs_log_error,argv,"Option '%s' requires an ",int,,,1
+ntfs_log_error,"Unknown option '%s'.\n",argv,int,,,0
+ntfs_log_error,argv,"Unknown option '%s'.\n",int,,,1
+ntfs_log_error,"add_attr_file_name failed: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"add_attr_file_name failed: %s\n",int,,,1
+ntfs_log_error,"add_attr_sd failed: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"add_attr_sd failed: %s\n",int,,,1
+ntfs_log_error,"add_attr_data failed: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"add_attr_data failed: %s\n",int,,,1
+ntfs_log_error,"add_attr_data_positioned failed: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"add_attr_data_positioned failed: %s\n",int,,,1
+ntfs_log_error,"add_attr_vol_name failed: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"add_attr_vol_name failed: %s\n",int,,,1
+ntfs_log_error,"add_attr_vol_info failed: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"add_attr_vol_info failed: %s\n",int,,,1
+ntfs_log_error,"add_attr_index_root failed: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"add_attr_index_root failed: %s\n",int,,,1
+ntfs_log_error,"add_attr_index_alloc failed: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"add_attr_index_alloc failed: %s\n",int,,,1
+ntfs_log_error,"add_attr_bitmap failed: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"add_attr_bitmap failed: %s\n",int,,,1
+ntfs_log_error,"add_attr_bitmap_positioned failed: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"add_attr_bitmap_positioned failed: %s\n",int,,,1
+min,key1_length,key2_length,int,,,0
+min,key2_length,key1_length,int,,,1
+ntfs_log_error,"make_room_for_index_entry_in_index_block ",strerror,int,,,0
+ntfs_log_error,strerror,"make_room_for_index_entry_in_index_block ",int,,,1
+ntfs_log_error,"create_hardlink failed adding file name ",strerror,int,,,0
+ntfs_log_error,strerror,"create_hardlink failed adding file name ",int,,,1
+ntfs_log_error,"create_hardlink failed inserting index entry: ",strerror,int,,,0
+ntfs_log_error,strerror,"create_hardlink failed inserting index entry: ",int,,,1
+ntfs_log_error,"create_hardlink failed adding file name attribute: ",strerror,int,,,0
+ntfs_log_error,strerror,"create_hardlink failed adding file name attribute: ",int,,,1
+ntfs_log_error,"create_hardlink failed inserting index entry: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"create_hardlink failed inserting index entry: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $Volume: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $Volume: %s\n",int,,,1
+ntfs_log_error,"Couldn't create root directory: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create root directory: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $MFT: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $MFT: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $MFTMirr: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $MFTMirr: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $LogFile: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $LogFile: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $AttrDef: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $AttrDef: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $Bitmap: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $Bitmap: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $Boot: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $Boot: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $BadClus: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $BadClus: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $Secure: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $Secure: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $UpCase: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $UpCase: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $Extend: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $Extend: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $Quota: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $Quota: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $ObjId: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $ObjId: %s\n",int,,,1
+ntfs_log_error,"Couldn't create $Reparse: %s\n",strerror,int,,,0
+ntfs_log_error,strerror,"Couldn't create $Reparse: %s\n",int,,,1
+ntfs_log_error,"ntfs_rlwrite: %s\n",lw,int,,,0
+ntfs_log_error,lw,"ntfs_rlwrite: %s\n",int,,,1
+strcmp,value,attr_name,int,,,0
+strcmp,attr_name,value,int,,,1
+strcmp,value,attr_name,int,,,0
+strcmp,attr_name,value,int,,,1
+strcmp,opt,"-",int,,,0
+strcmp,"-",opt,int,,,1
+Printf,"%s",bad_sectors_warning_msg,void,,,0
+Printf,bad_sectors_warning_msg,"%s",void,,,1
+perr_exit,"Failed to check '%s' mount state",device,int,,,0
+perr_exit,device,"Failed to check '%s' mount state",int,,,1
+err_exit,"Device '%s' is mounted read-write. ",device,int,,,0
+err_exit,device,"Device '%s' is mounted read-write. ",int,,,1
+err_exit,"Device '%s' is mounted. ",device,int,,,0
+err_exit,device,"Device '%s' is mounted. ",int,,,1
+strcmp,opt,"-",int,,,0
+strcmp,"-",opt,int,,,1
+perr_printf,"Couldn't convert '%s' to Unicode",aname,void,,,0
+perr_printf,aname,"Couldn't convert '%s' to Unicode",void,,,1
+ntfs_log_info,"Dump: %s\n",buffer,int,,,0
+ntfs_log_info,buffer,"Dump: %s\n",int,,,1
+ntfs_log_info,"/%s\n",buffer,int,,,0
+ntfs_log_info,buffer,"/%s\n",int,,,1
+printf,"\nUsage: %s [OPTIONS] DEVICE1 DEVICE2\n",EXEC_NAME,int,,,0
+printf,EXEC_NAME,"\nUsage: %s [OPTIONS] DEVICE1 DEVICE2\n",int,,,1
+err_printf,"%s read overrun: ",__FUNCTION__,void,,,0
+err_printf,__FUNCTION__,"%s read overrun: ",void,,,1
+strcmp,prev_name,name,int,_Str1,_Str2,0
+strcmp,name,prev_name,int,_Str1,_Str2,1
+err_exit,"Device '%s' is mounted read-write. ",volume,int,,,0
+err_exit,volume,"Device '%s' is mounted read-write. ",int,,,1
+printf,invalid_ntfs_msg,volume,int,,,0
+printf,volume,invalid_ntfs_msg,int,,,1
+ntfs_log_error,"The file '%s' already exists ",parent_dirname,int,,,0
+ntfs_log_error,parent_dirname,"The file '%s' already exists ",int,,,1
+ntfs_log_perror,"ERROR: Couldn't open '%s'",parent_dirname,int,,,0
+ntfs_log_perror,parent_dirname,"ERROR: Couldn't open '%s'",int,,,1
+ntfs_log_verbose,"Destination path has a file with ",overwrite_filename,int,,,0
+ntfs_log_verbose,overwrite_filename,"Destination path has a file with ",int,,,1
+ntfs_log_perror,"ERROR: Failed to create the ",opts,int,,,0
+ntfs_log_perror,opts,"ERROR: Failed to create the ",int,,,1
+ntfs_log_perror,"ERROR: Failed to parse attribute name '%s'",opts,int,,,0
+ntfs_log_perror,opts,"ERROR: Failed to parse attribute name '%s'",int,,,1
+strcmp,purpose_oid,"1.3.6.1.4.1.311.10.3.4.1",int,,,0
+strcmp,"1.3.6.1.4.1.311.10.3.4.1",purpose_oid,int,,,1
+strcmp,purpose_oid,"1.3.6.1.4.1.311.10.3.4",int,,,0
+strcmp,"1.3.6.1.4.1.311.10.3.4",purpose_oid,int,,,1
+ntfs_log_error,"Certificate has unknown ",purpose_oid,int,,,0
+ntfs_log_error,purpose_oid,"Certificate has unknown ",int,,,1
+ntfs_log_info,"\n%s restart page:\n",pass,int,,,0
+ntfs_log_info,pass,"\n%s restart page:\n",int,,,1
+ntfs_log_error,"Refusing to operate on read-write ",opt,int,,,0
+ntfs_log_error,opt,"Refusing to operate on read-write ",int,,,1
+ntfs_log_perror,"Failed to determine whether %s is mounted",opt,int,,,0
+ntfs_log_perror,opt,"Failed to determine whether %s is mounted",int,,,1
+printf,"\nUsage: %s [options] device\n",EXEC_NAME,int,,,0
+printf,EXEC_NAME,"\nUsage: %s [options] device\n",int,,,1
+printf,"%sFile attributes:\t",indent,int,,,0
+printf,indent,"%sFile attributes:\t",int,,,1
+printf,"%sFile Name:\t\t unnamed?!?\n",indent,int,,,0
+printf,indent,"%sFile Name:\t\t unnamed?!?\n",int,,,1
+printf,"%s\tOwner SID:\t\t missing\n",indent,int,,,0
+printf,indent,"%s\tOwner SID:\t\t missing\n",int,,,1
+printf,"%s\tGroup SID:\t\t missing\n",indent,int,,,0
+printf,indent,"%s\tGroup SID:\t\t missing\n",int,,,1
+printf,"%s\tSystem ACL:\t\t ",indent,int,,,0
+printf,indent,"%s\tSystem ACL:\t\t ",int,,,1
+printf,"%s\tDiscretionary ACL:\t ",indent,int,,,0
+printf,indent,"%s\tDiscretionary ACL:\t ",int,,,1
+ntfs_log_verbose,"\t\tKey GUID:\t\t %s\n",printable_GUID,int,,,0
+ntfs_log_verbose,printable_GUID,"\t\tKey GUID:\t\t %s\n",int,,,1
+ntfs_log_verbose,"\t\tKey SID:\t\t %s\n",sid,int,,,0
+ntfs_log_verbose,sid,"\t\tKey SID:\t\t %s\n",int,,,1
+ntfs_log_verbose,"\t\tBirth volume id GUID:\t %s\n",printable_GUID,int,,,0
+ntfs_log_verbose,printable_GUID,"\t\tBirth volume id GUID:\t %s\n",int,,,1
+ntfs_log_verbose,"\t\tBirth object id GUID:\t %s\n",printable_GUID,int,,,0
+ntfs_log_verbose,printable_GUID,"\t\tBirth object id GUID:\t %s\n",int,,,1
+ntfs_log_verbose,"\t\tDomain id GUID:\t\t %s\n",printable_GUID,int,,,0
+ntfs_log_verbose,printable_GUID,"\t\tDomain id GUID:\t\t %s\n",int,,,1
+ntfs_log_verbose,"\t\tOwner SID:\t\t %s\n",sid,int,,,0
+ntfs_log_verbose,sid,"\t\tOwner SID:\t\t %s\n",int,,,1
+strcmp,file_name,"/$Extend/$Quota",int,,,0
+strcmp,"/$Extend/$Quota",file_name,int,,,1
+strcmp,file_name,"/$Extend/$ObjId",int,,,0
+strcmp,"/$Extend/$ObjId",file_name,int,,,1
+printf,"Failed to open '%s'.\n",opts,int,,,0
+printf,opts,"Failed to open '%s'.\n",int,,,1
+ntfs_log_error,"%s is mounted read-write, results may be ",opts,int,,,0
+ntfs_log_error,opts,"%s is mounted read-write, results may be ",int,,,1
+printf,"\nUsage: %s [options] device\n",EXEC_NAME,int,,,0
+printf,EXEC_NAME,"\nUsage: %s [options] device\n",int,,,1
+list_for_each,walker,dir_list,int,,,0
+list_for_each,dir_list,walker,int,,,1
+printf,"%s:\n",opts,int,,,0
+printf,opts,"%s:\n",int,,,1
+printf,"%s",tempcomp,int,,,0
+printf,tempcomp,"%s",int,,,1
+calloc,1,sizeof,void *,,,0
+calloc,sizeof,1,void *,,,1
+ntfs_log_verbose,"device name = %s\n",dev_name,int,,,0
+ntfs_log_verbose,dev_name,"device name = %s\n",int,,,1
+ntfs_log_perror,"Warning: Could not umount %s",dev_name,int,,,0
+ntfs_log_perror,dev_name,"Warning: Could not umount %s",int,,,1
+ntfs_log_error,"%s is mounted.\n",dev_name,int,,,0
+ntfs_log_error,dev_name,"%s is mounted.\n",int,,,1
+ntfs_log_perror,"Warning: Failed to umount %s",dev_name,int,,,0
+ntfs_log_perror,dev_name,"Warning: Failed to umount %s",int,,,1
+strcmp,ctx,path,int,,,0
+strcmp,path,ctx,int,,,1
+ntfs_fuse_link,old_path,new_path,int,old_path,new_path,0
+ntfs_fuse_link,new_path,old_path,int,old_path,new_path,1
+ntfs_log_info,"Default options:\n\t%s\n\n",ntfs_fuse_default_options,int,,,0
+ntfs_log_info,ntfs_fuse_default_options,"Default options:\n\t%s\n\n",int,,,1
+strcmp,arg,"remount",int,,,0
+strcmp,"remount",arg,int,,,1
+ntfs_log_perror,"Failed to stat %s",ctx,int,,,0
+ntfs_log_perror,ctx,"Failed to stat %s",int,,,1
+ntfs_log_warning,"WARNING: %s is block device, but you ",ctx,int,,,0
+ntfs_log_warning,ctx,"WARNING: %s is block device, but you ",int,,,1
+ntfs_log_error,"Failed to set locale to %s ",ctx,int,,,0
+ntfs_log_error,ctx,"Failed to set locale to %s ",int,,,1
+ntfs_log_info,"Moving %s\n",buffer,int,,,0
+ntfs_log_info,buffer,"Moving %s\n",int,,,1
+printf,"\nUsage: %s [OPTIONS] DEVICE\n",EXEC_NAME,int,,,0
+printf,EXEC_NAME,"\nUsage: %s [OPTIONS] DEVICE\n",int,,,1
+printf,"%s",corrupt_volume_msg,int,,,0
+printf,corrupt_volume_msg,"%s",int,,,1
+err_printf,"%s",corrupt_volume_msg,void,,,0
+err_printf,corrupt_volume_msg,"%s",void,,,1
+perr_printf,"Couldn't convert '%s' to Unicode",aname,void,,,0
+perr_printf,aname,"Couldn't convert '%s' to Unicode",void,,,1
+printf,"%s",many_bad_sectors_msg,int,,,0
+printf,many_bad_sectors_msg,"%s",int,,,1
+printf,"%s",bad_sectors_warning_msg,int,,,0
+printf,bad_sectors_warning_msg,"%s",int,,,1
+printf,"%s",corrupt_volume_msg,int,,,0
+printf,corrupt_volume_msg,"%s",int,,,1
+printf,"%s",hibernated_volume_msg,int,,,0
+printf,hibernated_volume_msg,"%s",int,,,1
+printf,"%s",unclean_journal_msg,int,,,0
+printf,unclean_journal_msg,"%s",int,,,1
+printf,"%s",opened_volume_msg,int,,,0
+printf,opened_volume_msg,"%s",int,,,1
+printf,"%s",corrupt_volume_msg,int,,,0
+printf,corrupt_volume_msg,"%s",int,,,1
+printf,"%s",resize_warning_msg,int,,,0
+printf,resize_warning_msg,"%s",int,,,1
+printf,"%s",resize_important_msg,int,,,0
+printf,resize_important_msg,"%s",int,,,1
+ntfs_log_verbose,"device name = %s\n",dev_name,int,,,0
+ntfs_log_verbose,dev_name,"device name = %s\n",int,,,1
+printf,"%s\n",todo,int,,,0
+printf,todo,"%s\n",int,,,1
+printf,"%s\n",todo,int,,,0
+printf,todo,"%s\n",int,,,1
+printf,"%s\n",todo,int,,,0
+printf,todo,"%s\n",int,,,1
+printf,"%s\n",todo,int,,,0
+printf,todo,"%s\n",int,,,1
+printf,"%s\n",todo,int,,,0
+printf,todo,"%s\n",int,,,1
+printf,"%s\n",todo,int,,,0
+printf,todo,"%s\n",int,,,1
+printf,"%s\n",todo,int,,,0
+printf,todo,"%s\n",int,,,1
+printf,"%s\n",todo,int,,,0
+printf,todo,"%s\n",int,,,1
+printf,"%s\n",don_t_know,int,,,0
+printf,don_t_know,"%s\n",int,,,1
+printf,"%s\n",don_t_know,int,,,0
+printf,don_t_know,"%s\n",int,,,1
+printf,"%s\n",don_t_know,int,,,0
+printf,don_t_know,"%s\n",int,,,1
+ntfs_log_perror,"Warning: Could not umount %s",dev_name,int,,,0
+ntfs_log_perror,dev_name,"Warning: Could not umount %s",int,,,1
+ntfs_log_perror,"Failed to determine whether %s is mounted",dev_name,int,,,0
+ntfs_log_perror,dev_name,"Failed to determine whether %s is mounted",int,,,1
+ntfs_log_error,"%s is mounted.\n",dev_name,int,,,0
+ntfs_log_error,dev_name,"%s is mounted.\n",int,,,1
+ntfs_log_perror,"Warning: Failed to umount %s",dev_name,int,,,0
+ntfs_log_perror,dev_name,"Warning: Failed to umount %s",int,,,1
+ntfs_log_error,"ERROR: Invalid Number: %s\n",opt_arg_ptr,int,,,0
+ntfs_log_error,opt_arg_ptr,"ERROR: Invalid Number: %s\n",int,,,1
+ntfs_log_error,"ERROR: Invalid Number: %s\n",opt_arg_temp,int,,,0
+ntfs_log_error,opt_arg_temp,"ERROR: Invalid Number: %s\n",int,,,1
+ntfs_log_error,"Invalid time suffix '%s'.  Use Y, M, W, D or H.\n",suffix,int,,,0
+ntfs_log_error,suffix,"Invalid time suffix '%s'.  Use Y, M, W, D or H.\n",int,,,1
+ntfs_log_error,"Invalid time suffix '%s'.  Use Y, M, W, D or H.\n",suffix,int,,,0
+ntfs_log_error,suffix,"Invalid time suffix '%s'.  Use Y, M, W, D or H.\n",int,,,1
+max,file,name,int,,,0
+max,name,file,int,,,1
+max,file,name,int,,,0
+max,name,file,int,,,1
+max,file,data,int,,,0
+max,data,file,int,,,1
+max,file,data,int,,,0
+max,data,file,int,,,1
+ntfs_log_quiet,"Date: %s\n",buffer,int,,,0
+ntfs_log_quiet,buffer,"Date: %s\n",int,,,1
+ntfs_log_quiet,"Date C: %s\n",buffer,int,,,0
+ntfs_log_quiet,buffer,"Date C: %s\n",int,,,1
+ntfs_log_quiet,"Date A: %s\n",buffer,int,,,0
+ntfs_log_quiet,buffer,"Date A: %s\n",int,,,1
+ntfs_log_quiet,"Date M: %s\n",buffer,int,,,0
+ntfs_log_quiet,buffer,"Date M: %s\n",int,,,1
+ntfs_log_quiet,"Date R: %s\n",buffer,int,,,0
+ntfs_log_quiet,buffer,"Date R: %s\n",int,,,1
+ntfs_log_error,"Invalid list '%s'\n",list,int,,,0
+ntfs_log_error,list,"Invalid list '%s'\n",int,,,1
+ntfs_log_debug,"Parsing list '%s' - ",list,int,,,0
+ntfs_log_debug,list,"Parsing list '%s' - ",int,,,1
+ntfs_log_error,invalid_ntfs_msg,device,int,,,0
+ntfs_log_error,device,invalid_ntfs_msg,int,,,1
+ntfs_log_error,"Invalid size suffix '%s'.  Use T, G, M, or K.\n",suffix,int,,,0
+ntfs_log_error,suffix,"Invalid size suffix '%s'.  Use T, G, M, or K.\n",int,,,1
+ntfs_log_debug,"Pathname: %s\n",buffer,int,,,0
+ntfs_log_debug,buffer,"Pathname: %s\n",int,,,1
+fopen,"/etc/lld2d.conf","r",FILE *,_FileName,_Mode,0
+fopen,"r","/etc/lld2d.conf",FILE *,_FileName,_Mode,1
+strcmp,var,"icon",int,_Str1,_Str2,0
+strcmp,"icon",var,int,_Str1,_Str2,1
+strcmp,var,"test",int,_Str1,_Str2,0
+strcmp,"test",var,int,_Str1,_Str2,1
+strcmp,val,"probe",int,_Str1,_Str2,0
+strcmp,"probe",val,int,_Str1,_Str2,1
+strcmp,var,"pause-usec",int,_Str1,_Str2,0
+strcmp,"pause-usec",var,int,_Str1,_Str2,1
+strcmp,var,"response-window-msec",int,_Str1,_Str2,0
+strcmp,"response-window-msec",var,int,_Str1,_Str2,1
+kill,pid,0,int,,,0
+kill,0,pid,int,,,1
+warn,"foreach_interface: open(\"/proc/net/dev\") for read failed: %s; ",strerror,int,,,0
+warn,strerror,"foreach_interface: open(\"/proc/net/dev\") for read failed: %s; ",int,,,1
+die,"osl_become_daemon: fork to drop process group leadership failed: %s\n",strerror,int,,,0
+die,strerror,"osl_become_daemon: fork to drop process group leadership failed: %s\n",int,,,1
+die,"osl_become_daemon: setsid failed?!: %s\n",strerror,int,,,0
+die,strerror,"osl_become_daemon: setsid failed?!: %s\n",int,,,1
+die,"osl_become_daemon: fork to lose group leadership (again) failed: %s\n",strerror,int,,,0
+die,strerror,"osl_become_daemon: fork to lose group leadership (again) failed: %s\n",int,,,1
+die,"osl_become_daemon: chdir(\"/\") failed: %s\n",strerror,int,,,0
+die,strerror,"osl_become_daemon: chdir(\"/\") failed: %s\n",int,,,1
+warn,"get_wireless_mode: get associated Access Point MAC failed: %s\n",strerror,int,,,0
+warn,strerror,"get_wireless_mode: get associated Access Point MAC failed: %s\n",int,,,1
+die,"packetio_tx_write: write to socket failed: %s\n",strerror,int,,,0
+die,strerror,"packetio_tx_write: write to socket failed: %s\n",int,,,1
+die,"packetio_recv_handler: error on read: %s\n",strerror,int,,,0
+die,strerror,"packetio_recv_handler: error on read: %s\n",int,,,1
+TOPOMAX,maxfd,Ios,int,,,0
+TOPOMAX,Ios,maxfd,int,,,1
+die,"event_mainloop: select: %s\n",strerror,int,,,0
+die,strerror,"event_mainloop: select: %s\n",int,,,1
+fopen,"/rom/etc/lld2d.conf","r",FILE *,_FileName,_Mode,0
+fopen,"r","/rom/etc/lld2d.conf",FILE *,_FileName,_Mode,1
+strcmp,var,"icon",int,_Str1,_Str2,0
+strcmp,"icon",var,int,_Str1,_Str2,1
+strcmp,var,"jumbo-icon",int,_Str1,_Str2,0
+strcmp,"jumbo-icon",var,int,_Str1,_Str2,1
+strcmp,var,"wl-interface",int,_Str1,_Str2,0
+strcmp,"wl-interface",var,int,_Str1,_Str2,1
+kill,pid,0,int,,,0
+kill,0,pid,int,,,1
+warn,"foreach_interface: open(\"/proc/net/dev\") for read failed: %s; ",strerror,int,,,0
+warn,strerror,"foreach_interface: open(\"/proc/net/dev\") for read failed: %s; ",int,,,1
+die,"osl_become_daemon: fork to drop process group leadership failed: %s\n",strerror,int,,,0
+die,strerror,"osl_become_daemon: fork to drop process group leadership failed: %s\n",int,,,1
+die,"osl_become_daemon: setsid failed?!: %s\n",strerror,int,,,0
+die,strerror,"osl_become_daemon: setsid failed?!: %s\n",int,,,1
+die,"osl_become_daemon: fork to lose group leadership (again) failed: %s\n",strerror,int,,,0
+die,strerror,"osl_become_daemon: fork to lose group leadership (again) failed: %s\n",int,,,1
+die,"osl_become_daemon: chdir(\"/\") failed: %s\n",strerror,int,,,0
+die,strerror,"osl_become_daemon: chdir(\"/\") failed: %s\n",int,,,1
+warn,"get_bssid: get associated Access Point MAC failed: %s\n",strerror,int,,,0
+warn,strerror,"get_bssid: get associated Access Point MAC failed: %s\n",int,,,1
+die,"packetio_tx_write: write to socket failed: %s\n",strerror,int,,,0
+die,strerror,"packetio_tx_write: write to socket failed: %s\n",int,,,1
+die,"packetio_recv_handler: error on read: %s\n",strerror,int,,,0
+die,strerror,"packetio_recv_handler: error on read: %s\n",int,,,1
+fopen,"/proc/net/dev","r",FILE *,_FileName,_Mode,0
+fopen,"r","/proc/net/dev",FILE *,_FileName,_Mode,1
+warn,"write_lg_icon_t: read of the jumbo iconfile FAILED, errno: %s",strerror,int,,,0
+warn,strerror,"write_lg_icon_t: read of the jumbo iconfile FAILED, errno: %s",int,,,1
+warn,"write_icon_file_t: read of the iconfile FAILED, errno: %s",strerror,int,,,0
+warn,strerror,"write_icon_file_t: read of the iconfile FAILED, errno: %s",int,,,1
+listen,sock,1,int,,,0
+listen,1,sock,int,,,1
+DEBUG2,"Do_accounting: connecting to '%s'",host,int,,,0
+DEBUG2,host,"Do_accounting: connecting to '%s'",int,,,1
+shutdown,tempfd,1,int,,,0
+shutdown,1,tempfd,int,,,1
+dup2,1,2,int,,,0
+dup2,2,1,int,,,1
+MESSAGE,"LPD lockfile '%s'",path,int,,,0
+MESSAGE,path,"LPD lockfile '%s'",int,,,1
+WARNMSG,"Warning: LPD lockfile '%s' not absolute path",path,int,,,0
+WARNMSG,path,"Warning: LPD lockfile '%s' not absolute path",int,,,1
+WARNMSG,"Warning: bad LPD lockfile '%s' path format",path,int,,,0
+WARNMSG,path,"Warning: bad LPD lockfile '%s' path format",int,,,1
+WARNMSG,"  LPD Lockfile directory '%s' does not exist!",path,int,,,0
+WARNMSG,path,"  LPD Lockfile directory '%s' does not exist!",int,,,1
+safestrcmp,cf_name,".",int,,,0
+safestrcmp,".",cf_name,int,,,1
+safestrcmp,cf_name,"..",int,,,0
+safestrcmp,"..",cf_name,int,,,1
+DEBUG2,"Scan_printer: file '%s'",cf_name,int,,,0
+DEBUG2,cf_name,"Scan_printer: file '%s'",int,,,1
+DEBUG2,"Scan_printer: fifo file '%s'",cf_name,int,,,0
+DEBUG2,cf_name,"Scan_printer: fifo file '%s'",int,,,1
+strpbrk,s,"<>|;",char *,,,0
+strpbrk,"<>|;",s,char *,,,1
+MESSAGE,"    shell script '%s'",filter_str,int,,,0
+MESSAGE,filter_str,"    shell script '%s'",int,,,1
+WARNMSG,"filter needs ')' at end - '%s'",filter_str,int,,,0
+WARNMSG,filter_str,"filter needs ')' at end - '%s'",int,,,1
+MESSAGE,"    executable '%s'",s,int,,,0
+MESSAGE,s,"    executable '%s'",int,,,1
+DEBUG1,"Make_write_file '%s'",s,int,,,0
+DEBUG1,s,"Make_write_file '%s'",int,,,1
+MESSAGE,"  checking '%s' file",s,int,,,0
+MESSAGE,s,"  checking '%s' file",int,,,1
+WARNMSG,"  ** ownership or permissions problem with '%s'",s,int,,,0
+WARNMSG,s,"  ** ownership or permissions problem with '%s'",int,,,1
+WARNMSG,"'%s' is a directory, not a file",path,int,,,0
+WARNMSG,path,"'%s' is a directory, not a file",int,,,1
+WARNMSG,"'%s' not a regular file - unusual",path,int,,,0
+WARNMSG,path,"'%s' not a regular file - unusual",int,,,1
+WARNMSG,"not regular file '%s'",path,int,,,0
+WARNMSG,path,"not regular file '%s'",int,,,1
+MESSAGE," Checking directory: '%s'",path,int,,,0
+MESSAGE,path," Checking directory: '%s'",int,,,1
+strstr,path,"/../",char *,,,0
+strstr,"/../",path,char *,,,1
+WARNMSG,"bad spooldir path '%s'",path,int,,,0
+WARNMSG,path,"bad spooldir path '%s'",int,,,1
+LockDevice,fd,0,int,,,0
+LockDevice,0,fd,int,,,1
+LockDevice,fd,1,int,,,0
+LockDevice,1,fd,int,,,1
+dup2,fd,ttyfd,int,,,0
+dup2,ttyfd,fd,int,,,1
+Do_lock,fd,0,int,,,0
+Do_lock,0,fd,int,,,1
+Do_lock,fd,0,int,,,0
+Do_lock,0,fd,int,,,1
+Do_lock,fd,1,int,,,0
+Do_lock,1,fd,int,,,1
+setproctitle,"lpd %s","XXYYZZ",int,,,0
+setproctitle,"XXYYZZ","lpd %s",int,,,1
+MESSAGE," trimming '%s'",s,int,,,0
+MESSAGE,s," trimming '%s'",int,,,1
+MESSAGE," removing '%s'",s,int,,,0
+MESSAGE,s," removing '%s'",int,,,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+DEBUG3,"Get_remote_hostbyaddr: %s",fqdn,int,,,0
+DEBUG3,fqdn,"Get_remote_hostbyaddr: %s",int,,,1
+DEBUG5,"form_addr_and_mask: '%s'",v,int,,,0
+DEBUG5,v,"form_addr_and_mask: '%s'",int,,,1
+rename,tempfile,hf_name,int,,,0
+rename,hf_name,tempfile,int,,,1
+ftruncate,fd,0,int,,,0
+ftruncate,0,fd,int,,,1
+DEBUG1,"Get_hold_file: checking on '%s'",hf_name,int,,,0
+DEBUG1,hf_name,"Get_hold_file: checking on '%s'",int,,,1
+DEBUG3,"Patselect: key '%s'",key,int,,,0
+DEBUG3,key,"Patselect: key '%s'",int,,,1
+safestrcasecmp,key,"all",int,,,0
+safestrcasecmp,"all",key,int,,,1
+strstr,str,key,char *,,,0
+strstr,key,str,char *,,,1
+ftruncate,status,0,int,,,0
+ftruncate,0,status,int,,,1
+safestrpbrk,pattern,"*?[",int,,,0
+safestrpbrk,"*?[",pattern,int,,,1
+DEBUG2,"Setup_configuration: User_printcap '%s'",s,int,,,0
+DEBUG2,s,"Setup_configuration: User_printcap '%s'",int,,,1
+DEBUG5,"Split: escape '%s'",t,int,,,0
+DEBUG5,t,"Split: escape '%s'",int,,,1
+strstr,s,key,char *,,,0
+strstr,key,s,char *,,,1
+safestrcmp,s,t,int,,,0
+safestrcmp,t,s,int,,,1
+DEBUG5,"Find_tags: adding '%s'",s,int,,,0
+DEBUG5,s,"Find_tags: adding '%s'",int,,,1
+safestrpbrk,str,"%",int,,,0
+safestrpbrk,"%",str,int,,,1
+DEBUG4,"Expand_percent: starting '%s'",str,int,,,0
+DEBUG4,str,"Expand_percent: starting '%s'",int,,,1
+safestrpbrk,s,"%",int,,,0
+safestrpbrk,"%",s,int,,,1
+DEBUG4,"Expand_percent: ending '%s'",str,int,,,0
+DEBUG4,str,"Expand_percent: ending '%s'",int,,,1
+DEBUG2,"Getprintcap_pathlist: processing '%s'",path,int,,,0
+DEBUG2,path,"Getprintcap_pathlist: processing '%s'",int,,,1
+DEBUG3,"Init_tempfile: temp file '%s'",dir,int,,,0
+DEBUG3,dir,"Init_tempfile: temp file '%s'",int,,,1
+DEBUG1,"Split_cmd_line: line '%s'",line,int,,,0
+DEBUG1,line,"Split_cmd_line: line '%s'",int,,,1
+dup2,fd,i,int,,,0
+dup2,i,fd,int,,,1
+strstr,s,"//",char *,,,0
+strstr,"//",s,char *,,,1
+DEBUG4,"Escape_colons: '%s'",newstr,int,,,0
+DEBUG4,newstr,"Escape_colons: '%s'",int,,,1
+DEBUG5,"Unescape '%s'",s,int,,,0
+DEBUG5,s,"Unescape '%s'",int,,,1
+strstr,s,key,char *,,,0
+strstr,key,s,char *,,,1
+DEBUG3,"Fix_str: '%s'",str,int,,,0
+DEBUG3,str,"Fix_str: '%s'",int,,,1
+safestrncpy,hostname,xhostname,int,,,0
+safestrncpy,xhostname,hostname,int,,,1
+listen,sock,64,int,,,0
+listen,64,sock,int,,,1
+shutdown,*,1,int,,,0
+shutdown,1,*,int,,,1
+getservbyname,port,"tcp",int,,,0
+getservbyname,"tcp",port,int,,,1
+Do_lock,fd,block,int,fd,block,0
+Do_lock,block,fd,int,fd,block,1
+dup2,fd,2,int,,,0
+dup2,2,fd,int,,,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+DEBUG1,"%s","-U (username) can only be used by ROOT",int,,,0
+DEBUG1,"-U (username) can only be used by ROOT","%s",int,,,1
+safestrcasecmp,s,"exit",int,,,0
+safestrcasecmp,"exit",s,int,,,1
+Write_fd_str,1,_,int,,,0
+Write_fd_str,_,1,int,,,1
+Write_fd_str,1,_,int,,,0
+Write_fd_str,_,1,int,,,1
+Write_fd_str,1,_,int,,,0
+Write_fd_str,_,1,int,,,1
+Write_fd_str,1,_,int,,,0
+Write_fd_str,_,1,int,,,1
+Write_fd_str,1,_,int,,,0
+Write_fd_str,_,1,int,,,1
+safestrcasecmp,s,"all",int,,,0
+safestrcasecmp,"all",s,int,,,1
+DIEMSG,_,Errormsg,int,,,0
+DIEMSG,Errormsg,_,int,,,1
+DIEMSG,_,Errormsg,int,,,0
+DIEMSG,Errormsg,_,int,,,1
+fopen,"/var/run/lpdparent.pid","w",FILE *,_FileName,_Mode,0
+fopen,"w","/var/run/lpdparent.pid",FILE *,_FileName,_Mode,1
+fopen,"/var/run/lpdparent.pid","r",FILE *,_FileName,_Mode,0
+fopen,"r","/var/run/lpdparent.pid",FILE *,_FileName,_Mode,1
+kill,pid,0,int,,,0
+kill,0,pid,int,,,1
+listen,sockfd,15,int,,,0
+listen,15,sockfd,int,,,1
+listen,netfd,5,int,,,0
+listen,5,netfd,int,,,1
+nvram_set,"MFP_busy","0",int,,,0
+nvram_set,"0","MFP_busy",int,,,1
+nvram_set,"u2ec_busyip","",int,,,0
+nvram_set,"","u2ec_busyip",int,,,1
+nvram_match,"MFP_busy","0",int,,,0
+nvram_match,"0","MFP_busy",int,,,1
+nvram_invmatch,"MFP_busy","0",int,,,0
+nvram_invmatch,"0","MFP_busy",int,,,1
+processReq_LPR,clisockfd,0,int,,,0
+processReq_LPR,0,clisockfd,int,,,1
+nvram_set,"MFP_busy","1",int,,,0
+nvram_set,"1","MFP_busy",int,,,1
+nvram_match,"lan_ipaddr_t","",int,,,0
+nvram_match,"","lan_ipaddr_t",int,,,1
+fopen,"/var/state/parport/svr_status","w",FILE *,_FileName,_Mode,0
+fopen,"w","/var/state/parport/svr_status",FILE *,_FileName,_Mode,1
+fopen,"/var/state/parport/svr_status","w",FILE *,_FileName,_Mode,0
+fopen,"w","/var/state/parport/svr_status",FILE *,_FileName,_Mode,1
+fopen,"/proc/sys/dev/parport/parport0/devices/lp/deviceid","r",FILE *,_FileName,_Mode,0
+fopen,"r","/proc/sys/dev/parport/parport0/devices/lp/deviceid",FILE *,_FileName,_Mode,1
+copy_stream,fd,f1,int,fd,f,0
+copy_stream,f1,fd,int,fd,f,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+safestrcasecmp,s,"off",int,,,0
+safestrcasecmp,"off",s,int,,,1
+safestrcasecmp,s,"off",int,,,0
+safestrcasecmp,"off",s,int,,,1
+safestrcasecmp,s,"off",int,,,0
+safestrcasecmp,"off",s,int,,,1
+nvram_match,"MFP_busy","0",int,,,0
+nvram_match,"0","MFP_busy",int,,,1
+fopen,"/var/run/lpdparent.pid","r",FILE *,_FileName,_Mode,0
+fopen,"r","/var/run/lpdparent.pid",FILE *,_FileName,_Mode,1
+fopen,"/var/run/lpdparent.pid","w",FILE *,_FileName,_Mode,0
+fopen,"w","/var/run/lpdparent.pid",FILE *,_FileName,_Mode,1
+listen,sockfd,15,int,,,0
+listen,15,sockfd,int,,,1
+listen,netfd,5,int,,,0
+listen,5,netfd,int,,,1
+fopen,"/var/state/parport/svr_status","w",FILE *,_FileName,_Mode,0
+fopen,"w","/var/state/parport/svr_status",FILE *,_FileName,_Mode,1
+fopen,"/var/state/parport/svr_status","w",FILE *,_FileName,_Mode,0
+fopen,"w","/var/state/parport/svr_status",FILE *,_FileName,_Mode,1
+fopen,"/proc/sys/dev/parport/parport0/devices/lp/deviceid","r",FILE *,_FileName,_Mode,0
+fopen,"r","/proc/sys/dev/parport/parport0/devices/lp/deviceid",FILE *,_FileName,_Mode,1
+strcmp,QueueName_got,"LPRServer",int,_Str1,_Str2,0
+strcmp,"LPRServer",QueueName_got,int,_Str1,_Str2,1
+ftruncate,status_fd,0,int,,,0
+ftruncate,0,status_fd,int,,,1
+ftruncate,status_fd,0,int,,,0
+ftruncate,0,status_fd,int,,,1
+strpbrk,s," \t",char *,,,0
+strpbrk," \t",s,char *,,,1
+_difftime64,_Time1,_Time2,double,_Time1,_Time2,0
+_difftime64,_Time2,_Time1,double,_Time1,_Time2,1
+Write_fd_str,1,Time_str,int,,,0
+Write_fd_str,Time_str,1,int,,,1
+safestrcmp,name,"lpstat",int,,,0
+safestrcmp,"lpstat",name,int,,,1
+shutdown,status_fd,1,int,,,0
+shutdown,1,status_fd,int,,,1
+safestrcmp,name,"lp",int,,,0
+safestrcmp,"lp",name,int,,,1
+DIEMSG,_,option,int,,,0
+DIEMSG,option,_,int,,,1
+DIEMSG,_,option,int,,,0
+DIEMSG,option,_,int,,,1
+shutdown,fd,1,int,,,0
+shutdown,1,fd,int,,,1
+strstr,s,"Printer:",char *,,,0
+strstr,"Printer:",s,char *,,,1
+DEBUG2,"Read_status_info: printer heading '%s'",t,int,,,0
+DEBUG2,t,"Read_status_info: printer heading '%s'",int,,,1
+DEBUG2,"Read_status_info: already done '%s'",t,int,,,0
+DEBUG2,t,"Read_status_info: already done '%s'",int,,,1
+strstr,s,"(spooling disabled)",char *,,,0
+strstr,"(spooling disabled)",s,char *,,,1
+strstr,s,"(printing disabled)",char *,,,0
+strstr,"(printing disabled)",s,char *,,,1
+getservbyname,portname,"udp",int,,,0
+getservbyname,"udp",portname,int,,,1
+listen,fd,10,int,,,0
+listen,10,fd,int,,,1
+safestrpbrk,group,"*[]",int,,,0
+safestrpbrk,"*[]",group,int,,,1
+DEBUG1,"Send_auth_transfer: cmd '%s'",cmd,int,,,0
+DEBUG1,cmd,"Send_auth_transfer: cmd '%s'",int,,,1
+DEBUG3,"Send_auth_transfer: sending '%s'",secure,int,,,0
+DEBUG3,secure,"Send_auth_transfer: sending '%s'",int,,,1
+shutdown,*,1,int,,,0
+shutdown,1,*,int,,,1
+dup2,fd,*,int,,,0
+dup2,*,fd,int,,,1
+DEBUG1,"Fix_send_auth: name '%s'",name,int,,,0
+DEBUG1,name,"Fix_send_auth: name '%s'",int,,,1
+DEBUG1,"Fix_send_auth: error '%s'",error,int,,,0
+DEBUG1,error,"Fix_send_auth: error '%s'",int,,,1
+DEBUG3,"Send_control: control file '%s' sent",transfername,int,,,0
+DEBUG3,transfername,"Send_control: control file '%s' sent",int,,,1
+DEBUG3,"Send_data_files: opening file '%s'",openname,int,,,0
+DEBUG3,openname,"Send_data_files: opening file '%s'",int,,,1
+DEBUG1,"Send_request: command '%s'",cmd,int,,,0
+DEBUG1,cmd,"Send_request: command '%s'",int,,,1
+DEBUG3,"Test_connect: sending '%s'",secure,int,,,0
+DEBUG3,secure,"Test_connect: sending '%s'",int,,,1
+shutdown,*,1,int,,,0
+shutdown,1,*,int,,,1
+DEBUG1,"md5_send: opening tempfile '%s'",tempfile,int,,,0
+DEBUG1,tempfile,"md5_send: opening tempfile '%s'",int,,,1
+shutdown,*,1,int,,,0
+shutdown,1,*,int,,,1
+DEBUG1,"md5_receive: opening tempfile '%s'",tempfile,int,,,0
+DEBUG1,tempfile,"md5_receive: opening tempfile '%s'",int,,,1
+DEBUG1,"Pgp_get_pgppassfd: PGPPASS '%s'",s,int,,,0
+DEBUG1,s,"Pgp_get_pgppassfd: PGPPASS '%s'",int,,,1
+DIEMSG,"PGPASSFD '%s' not file",s,int,,,0
+DIEMSG,s,"PGPASSFD '%s' not file",int,,,1
+Make_pathname,s,passphrasefile,int,,,0
+Make_pathname,passphrasefile,s,int,,,1
+DEBUG1,"Pgp_decode: esc_to_id '%s'",esc_to_id,int,,,0
+DEBUG1,esc_to_id,"Pgp_decode: esc_to_id '%s'",int,,,1
+DEBUG1,"Pgp_decode: pgp output '%s'",buffer,int,,,0
+DEBUG1,buffer,"Pgp_decode: pgp output '%s'",int,,,1
+DEBUG1,"Pgp_decode: pgp final output '%s'",buffer,int,,,0
+DEBUG1,buffer,"Pgp_decode: pgp final output '%s'",int,,,1
+strstr,s,"not a ciphertext",char *,,,0
+strstr,"not a ciphertext",s,char *,,,1
+DEBUG1,"Pgp_decode: FROM '%s'",t,int,,,0
+DEBUG1,t,"Pgp_decode: FROM '%s'",int,,,1
+DEBUG1,"Pgp_decode: error '%s'",error,int,,,0
+DEBUG1,error,"Pgp_decode: error '%s'",int,,,1
+DEBUG1,"Pgp_encode: pgp output '%s'",buffer,int,,,0
+DEBUG1,buffer,"Pgp_encode: pgp output '%s'",int,,,1
+DEBUG1,"Pgp_encode: pgp final output '%s'",buffer,int,,,0
+DEBUG1,buffer,"Pgp_encode: pgp final output '%s'",int,,,1
+shutdown,*,1,int,,,0
+shutdown,1,*,int,,,1
+DEBUG2,"Pgp_send: wrote '%s'",error,int,,,0
+DEBUG2,error,"Pgp_send: wrote '%s'",int,,,1
+DEBUG2,"Pgp_send: writing error to file '%s'",error,int,,,0
+DEBUG2,error,"Pgp_send: writing error to file '%s'",int,,,1
+DEBUG1,"test_chooser: available '%s'",pr,int,,,0
+DEBUG1,pr,"test_chooser: available '%s'",int,,,1
+DEBUG4,"test_sort_key: cmpstr '%s'",cmpstr,int,,,0
+DEBUG4,cmpstr,"test_sort_key: cmpstr '%s'",int,,,1
+strcmp,s1,s2,int,,,0
+strcmp,s2,s1,int,,,1
+strpbrk,s1,s2,char *,,,0
+strpbrk,s2,s1,char *,,,1
+DEBUG4,"Getdaemon: using '%s'",str,int,,,0
+DEBUG4,str,"Getdaemon: using '%s'",int,,,1
+DEBUG4,"Getdaemon_group: Daemon_group_DYN '%s'",str,int,,,0
+DEBUG4,str,"Getdaemon_group: Daemon_group_DYN '%s'",int,,,1
+DEBUG4,"Getdaemon_group: name '%s'",str,int,,,0
+DEBUG4,str,"Getdaemon_group: name '%s'",int,,,1
+DEBUG2,"Check_space: cannot stat '%s'",pathname,int,,,0
+DEBUG2,pathname,"Check_space: cannot stat '%s'",int,,,1
+shutdown,sock,1,int,,,0
+shutdown,1,sock,int,,,1
+find_capability,term_entry,cap,char *,bp,cap,0
+find_capability,cap,term_entry,char *,bp,cap,1
+find_capability,term_entry,cap,char *,bp,cap,0
+find_capability,cap,term_entry,char *,bp,cap,1
+find_capability,term_entry,cap,char *,bp,cap,0
+find_capability,cap,term_entry,char *,bp,cap,1
+strcmp,name,getenv,int,,,0
+strcmp,getenv,name,int,,,1
+name_match,bufp,str,int,line,name,0
+name_match,str,bufp,int,line,name,1
+compare_contin,line,name,int,str1,str2,0
+compare_contin,name,line,int,str1,str2,1
+compare_contin,tem,name,int,str1,str2,0
