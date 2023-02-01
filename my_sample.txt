@@ -10642,3 +10642,166 @@ _difftime64,_Time1,_Time2,double,_Time1,_Time2,0
 _difftime64,_Time2,_Time1,double,_Time1,_Time2,1
 strcmp,partition,"boot",int,_Str1,_Str2,0
 strcmp,"boot",partition,int,_Str1,_Str2,1
+strcmp,partition,"recovery",int,_Str1,_Str2,0
+strcmp,"recovery",partition,int,_Str1,_Str2,1
+strcmp,partition,"recoveryonly",int,_Str1,_Str2,0
+strcmp,"recoveryonly",partition,int,_Str1,_Str2,1
+strcmp,partition,"recoveryonly",int,_Str1,_Str2,0
+strcmp,"recoveryonly",partition,int,_Str1,_Str2,1
+restore_internal,"/dev/block/bml7",filename,int,bml,filename,0
+restore_internal,filename,"/dev/block/bml7",int,bml,filename,1
+strcmp,partition,"recovery",int,_Str1,_Str2,0
+strcmp,"recovery",partition,int,_Str1,_Str2,1
+strcmp,partition,"recoveryonly",int,_Str1,_Str2,0
+strcmp,"recoveryonly",partition,int,_Str1,_Str2,1
+restore_internal,"/dev/block/bml8",filename,int,bml,filename,0
+restore_internal,filename,"/dev/block/bml8",int,bml,filename,1
+strcmp,"boot",partition,int,_Str1,_Str2,0
+strcmp,partition,"boot",int,_Str1,_Str2,1
+strcmp,"recovery",partition,int,_Str1,_Str2,0
+strcmp,partition,"recovery",int,_Str1,_Str2,1
+fopen,in_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",in_file,FILE *,_FileName,_Mode,1
+fopen,out_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",out_file,FILE *,_FileName,_Mode,1
+strcmp,na,nb,int,_Str1,_Str2,0
+strcmp,nb,na,int,_Str1,_Str2,1
+strcmp,result,expected,int,_Str1,_Str2,0
+strcmp,expected,result,int,_Str1,_Str2,1
+fopen,argv,"r",FILE *,_FileName,_Mode,0
+fopen,"r",argv,FILE *,_FileName,_Mode,1
+detect_partition,partitionType,partition,int,partitionType,partition,0
+detect_partition,partition,partitionType,int,partitionType,partition,1
+cmd_mtd_restore_raw_partition,partition,filename,int,,,0
+cmd_mtd_restore_raw_partition,filename,partition,int,,,1
+cmd_mmc_restore_raw_partition,partition,filename,int,,,0
+cmd_mmc_restore_raw_partition,filename,partition,int,,,1
+cmd_bml_restore_raw_partition,partition,filename,int,,,0
+cmd_bml_restore_raw_partition,filename,partition,int,,,1
+detect_partition,partitionType,partition,int,partitionType,partition,0
+detect_partition,partition,partitionType,int,partitionType,partition,1
+cmd_mtd_backup_raw_partition,partition,filename,int,,,0
+cmd_mtd_backup_raw_partition,filename,partition,int,,,1
+cmd_mmc_backup_raw_partition,partition,filename,int,,,0
+cmd_mmc_backup_raw_partition,filename,partition,int,,,1
+cmd_bml_backup_raw_partition,partition,filename,int,,,0
+cmd_bml_backup_raw_partition,filename,partition,int,,,1
+detect_partition,partitionType,partition,int,partitionType,partition,0
+detect_partition,partition,partitionType,int,partitionType,partition,1
+detect_partition,,partition,int,partitionType,partition,0
+detect_partition,partition,,int,partitionType,partition,1
+cmd_mtd_erase_partition,partition,filesystem,int,,,0
+cmd_mtd_erase_partition,filesystem,partition,int,,,1
+cmd_mmc_erase_partition,partition,filesystem,int,,,0
+cmd_mmc_erase_partition,filesystem,partition,int,,,1
+cmd_bml_erase_partition,partition,filesystem,int,,,0
+cmd_bml_erase_partition,filesystem,partition,int,,,1
+detect_partition,,partition,int,partitionType,partition,0
+detect_partition,partition,,int,partitionType,partition,1
+strpbrk,str,delim,char *,,,0
+strpbrk,delim,str,char *,,,1
+strcmp,token,"0x01",int,,,0
+strcmp,"0x01",token,int,,,1
+calloc,sizeof,1,void *,_Count,_Size,0
+calloc,1,sizeof,void *,_Count,_Size,1
+fopen,resPath,"rb",FILE *,_FileName,_Mode,0
+fopen,"rb",resPath,FILE *,_FileName,_Mode,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+uaw_lstrcmpW,String1,String2,int,String1,String2,0
+uaw_lstrcmpW,String2,String1,int,String1,String2,1
+uaw_lstrcmpiW,String1,String2,int,String1,String2,0
+uaw_lstrcmpiW,String2,String1,int,String1,String2,1
+uaw_wcsicmp,String1,String2,int,String1,String2,0
+uaw_wcsicmp,String2,String1,int,String1,String2,1
+strcmp,"NONE",ext3_partitions,int,_Str1,_Str2,0
+strcmp,ext3_partitions,"NONE",int,_Str1,_Str2,1
+strcmp,"NONE",vfat_partitions,int,_Str1,_Str2,0
+strcmp,vfat_partitions,"NONE",int,_Str1,_Str2,1
+fopen,device,"r",FILE *,_FileName,_Mode,0
+fopen,"r",device,FILE *,_FileName,_Mode,1
+printf,"Can't open device: \"%s\"\n",device,int,,,0
+printf,device,"Can't open device: \"%s\"\n",int,,,1
+printf,"Can't read device: \"%s\"\n",device,int,,,0
+printf,device,"Can't read device: \"%s\"\n",int,,,1
+strcmp,p,device_index,int,_Str1,_Str2,0
+strcmp,device_index,p,int,_Str1,_Str2,1
+strcmp,p,name,int,_Str1,_Str2,0
+strcmp,name,p,int,_Str1,_Str2,1
+fopen,in_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",in_file,FILE *,_FileName,_Mode,1
+fopen,out_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",out_file,FILE *,_FileName,_Mode,1
+fopen,in_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",in_file,FILE *,_FileName,_Mode,1
+fopen,out_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",out_file,FILE *,_FileName,_Mode,1
+mmc_raw_dump_internal,partition,out_file,int,in_file,out_file,0
+mmc_raw_dump_internal,out_file,partition,int,in_file,out_file,1
+fopen,in_file,"r",FILE *,_FileName,_Mode,0
+fopen,"r",in_file,FILE *,_FileName,_Mode,1
+fopen,out_file,"w",FILE *,_FileName,_Mode,0
+fopen,"w",out_file,FILE *,_FileName,_Mode,1
+mmc_raw_dump_internal,filename,partition,int,in_file,out_file,0
+mmc_raw_dump_internal,partition,filename,int,in_file,out_file,1
+mmc_raw_dump_internal,partition,filename,int,in_file,out_file,0
+mmc_raw_dump_internal,filename,partition,int,in_file,out_file,1
+printf,"error closing %s",filename,int,,,0
+printf,filename,"error closing %s",int,,,1
+printf,"error closing %s",filename,int,,,0
+printf,filename,"error closing %s",int,,,1
+strcmp,argv,"scan",int,_Str1,_Str2,0
+strcmp,"scan",argv,int,_Str1,_Str2,1
+strcmp,argv,"scan",int,_Str1,_Str2,0
+strcmp,"scan",argv,int,_Str1,_Str2,1
+strcmp,argv,"scan",int,_Str1,_Str2,0
+strcmp,"scan",argv,int,_Str1,_Str2,1
+strcmp,argv,"scan",int,_Str1,_Str2,0
+strcmp,"scan",argv,int,_Str1,_Str2,1
+strcmp,argv,"dump",int,_Str1,_Str2,0
+strcmp,"dump",argv,int,_Str1,_Str2,1
+strcmp,argv,"flash",int,_Str1,_Str2,0
+strcmp,"flash",argv,int,_Str1,_Str2,1
+printf,"Fixing execute permissions for %s\n",mount_point,int,,,0
+printf,mount_point,"Fixing execute permissions for %s\n",int,,,1
+printf,"can't find %s partition",partition_name,int,,,0
+printf,partition_name,"can't find %s partition",int,,,1
+printf,"error opening %s",filename,int,,,0
+printf,filename,"error opening %s",int,,,1
+printf,"error reading %s header",filename,int,,,0
+printf,filename,"error reading %s header",int,,,1
+printf,"header is the same, not flashing %s\n",partition_name,int,,,0
+printf,partition_name,"header is the same, not flashing %s\n",int,,,1
+printf,"error writing %s",partition_name,int,,,0
+printf,partition_name,"error writing %s",int,,,1
+printf,"error writing %s",partition_name,int,,,0
+printf,partition_name,"error writing %s",int,,,1
+printf,"error writing %s",partition_name,int,,,0
+printf,partition_name,"error writing %s",int,,,1
+printf,"error reading %s",filename,int,,,0
+printf,filename,"error reading %s",int,,,1
+printf,"error closing %s",partition_name,int,,,0
+printf,partition_name,"error closing %s",int,,,1
+printf,"error re-opening %s",partition_name,int,,,0
+printf,partition_name,"error re-opening %s",int,,,1
+printf,"error re-writing %s",partition_name,int,,,0
+printf,partition_name,"error re-writing %s",int,,,1
+printf,"error getting %s block size",partition_name,int,,,0
+printf,partition_name,"error getting %s block size",int,,,1
+printf,"error rewinding %s",filename,int,,,0
+printf,filename,"error rewinding %s",int,,,1
+printf,"error reading %s",filename,int,,,0
+printf,filename,"error reading %s",int,,,1
+printf,"error writing %s",partition_name,int,,,0
+printf,partition_name,"error writing %s",int,,,1
+printf,"error closing %s",partition_name,int,,,0
+printf,partition_name,"error closing %s",int,,,1
+printf,"can't find %s partition",partition_name,int,,,0
+printf,partition_name,"can't find %s partition",int,,,1
+printf,"can't get info of partition %s",partition_name,int,,,0
+printf,partition_name,"can't get info of partition %s",int,,,1
+strcmp,filename,"-",int,_Str1,_Str2,0
